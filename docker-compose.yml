@@ -1,7 +1,8 @@
 services:
   doc:
-    image: workflows-doc:latest
+    image: n8n-workflows-doc:latest
     build:
       context: .
     ports:
       - "8000:8000"
+      - "3000:3000"

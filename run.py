@@ -89,7 +89,7 @@ def start_server(host: str = "127.0.0.1", port: int = 8000, reload: bool = False
     print("-" * 50)
     
     # Configure database path
-    os.environ['WORKFLOW_DB_PATH'] = "database/workflows.db"
+    os.environ["WORKFLOW_DB_PATH"] = "database/workflows.db"
     
     # Start uvicorn with better configuration
     import uvicorn

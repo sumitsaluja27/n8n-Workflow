@@ -57,6 +57,7 @@ async def startup_event():
 class WorkflowSummary(BaseModel):
     id: Optional[int] = None
     filename: str
+    workflow_folder: str
     name: str
     active: bool
     description: str = ""
@@ -158,6 +159,7 @@ async def search_workflows(
                 clean_workflow = {
                     'id': workflow.get('id'),
                     'filename': workflow.get('filename', ''),
+                    'workflow_folder': workflow.get('workflow_folder', ''),
                     'name': workflow.get('name', ''),
                     'active': workflow.get('active', False),
                     'description': workflow.get('description', ''),
@@ -205,7 +207,7 @@ async def get_workflow_detail(filename: str):
         workflow_meta = workflows[0]
         
         # Load raw JSON from file
-        file_path = os.path.join("workflows", filename)
+        file_path = os.path.join("workflows", workflow_meta['workflow_folder'], filename)
         if not os.path.exists(file_path):
             print(f"Warning: File {file_path} not found on filesystem but exists in database")
             raise HTTPException(status_code=404, detail=f"Workflow file '{filename}' not found on filesystem")
@@ -226,7 +228,14 @@ async def get_workflow_detail(filename: str):
 async def download_workflow(filename: str):
     """Download workflow JSON file."""
     try:
-        file_path = os.path.join("workflows", filename)
+        # Get workflow metadata from database
+        workflows, _ = db.search_workflows(f'filename:"{filename}"', limit=1)
+        if not workflows:
+            raise HTTPException(status_code=404, detail="Workflow not found in database")
+
+        workflow = workflows[0]
+
+        file_path = os.path.join("workflows", workflow['workflow_folder'], filename)
         if not os.path.exists(file_path):
             print(f"Warning: Download requested for missing file: {file_path}")
             raise HTTPException(status_code=404, detail=f"Workflow file '{filename}' not found on filesystem")
@@ -246,7 +255,14 @@ async def download_workflow(filename: str):
 async def get_workflow_diagram(filename: str):
     """Get Mermaid diagram code for workflow visualization."""
     try:
-        file_path = os.path.join("workflows", filename)
+        # Get workflow metadata from database
+        workflows, _ = db.search_workflows(f'filename:"{filename}"', limit=1)
+        if not workflows:
+            raise HTTPException(status_code=404, detail="Workflow not found in database")
+
+        workflow = workflows[0]
+
+        file_path = os.path.join("workflows", workflow['workflow_folder'], filename)
         if not os.path.exists(file_path):
             print(f"Warning: Diagram requested for missing file: {file_path}")
             raise HTTPException(status_code=404, detail=f"Workflow file '{filename}' not found on filesystem")
@@ -441,6 +457,7 @@ async def search_workflows_by_category(
                 clean_workflow = {
                     'id': workflow.get('id'),
                     'filename': workflow.get('filename', ''),
+                    'workflow_folder': workflow.get('workflow_folder', ''),
                     'name': workflow.get('name', ''),
                     'active': workflow.get('active', False),
                     'description': workflow.get('description', ''),

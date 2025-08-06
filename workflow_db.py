@@ -19,7 +19,7 @@ class WorkflowDatabase:
     def __init__(self, db_path: str = None):
         # Use environment variable if no path provided
         if db_path is None:
-            db_path = os.environ.get('WORKFLOW_DB_PATH', 'workflows.db')
+            db_path = os.environ.get("WORKFLOW_DB_PATH", "database/workflows.db")
         self.db_path = db_path
         self.workflows_dir = "workflows"
         self.init_database()
@@ -37,6 +37,7 @@ class WorkflowDatabase:
             CREATE TABLE IF NOT EXISTS workflows (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 filename TEXT UNIQUE NOT NULL,
+                workflow_folder TEXT,
                 name TEXT NOT NULL,
                 workflow_id TEXT,
                 active BOOLEAN DEFAULT 0,
@@ -58,6 +59,7 @@ class WorkflowDatabase:
         conn.execute("""
             CREATE VIRTUAL TABLE IF NOT EXISTS workflows_fts USING fts5(
                 filename,
+                workflow_folder,
                 name,
                 description,
                 integrations,
@@ -73,28 +75,29 @@ class WorkflowDatabase:
         conn.execute("CREATE INDEX IF NOT EXISTS idx_active ON workflows(active)")
         conn.execute("CREATE INDEX IF NOT EXISTS idx_node_count ON workflows(node_count)")
         conn.execute("CREATE INDEX IF NOT EXISTS idx_filename ON workflows(filename)")
+        conn.execute("CREATE INDEX IF NOT EXISTS idx_workflow_folder ON workflows(workflow_folder)")
         
         # Create triggers to keep FTS table in sync
         conn.execute("""
             CREATE TRIGGER IF NOT EXISTS workflows_ai AFTER INSERT ON workflows BEGIN
-                INSERT INTO workflows_fts(rowid, filename, name, description, integrations, tags)
-                VALUES (new.id, new.filename, new.name, new.description, new.integrations, new.tags);
+                INSERT INTO workflows_fts(rowid, filename, workflow_folder, name, description, integrations, tags)
+                VALUES (new.id, new.filename, new.workflow_folder, new.name, new.description, new.integrations, new.tags);
             END
         """)
         
         conn.execute("""
             CREATE TRIGGER IF NOT EXISTS workflows_ad AFTER DELETE ON workflows BEGIN
-                INSERT INTO workflows_fts(workflows_fts, rowid, filename, name, description, integrations, tags)
-                VALUES ('delete', old.id, old.filename, old.name, old.description, old.integrations, old.tags);
+                INSERT INTO workflows_fts(workflows_fts, rowid, filename, workflow_folder, name, description, integrations, tags)
+                VALUES ('delete', old.id, old.filename, old.workflow_folder, old.name, old.description, old.integrations, old.tags);
             END
         """)
         
         conn.execute("""
             CREATE TRIGGER IF NOT EXISTS workflows_au AFTER UPDATE ON workflows BEGIN
-                INSERT INTO workflows_fts(workflows_fts, rowid, filename, name, description, integrations, tags)
-                VALUES ('delete', old.id, old.filename, old.name, old.description, old.integrations, old.tags);
-                INSERT INTO workflows_fts(rowid, filename, name, description, integrations, tags)
-                VALUES (new.id, new.filename, new.name, new.description, new.integrations, new.tags);
+                INSERT INTO workflows_fts(workflows_fts, rowid, filename, workflow_folder, name, description, integrations, tags)
+                VALUES ('delete', old.id, old.filename, old.workflow_folder, old.name, old.description, old.integrations, old.tags);
+                INSERT INTO workflows_fts(rowid, filename, workflow_folder, name, description, integrations, tags)
+                VALUES (new.id, new.filename, new.workflow_folder, new.name, new.description, new.integrations, new.tags);
             END
         """)
         
@@ -159,10 +162,17 @@ class WorkflowDatabase:
         filename = os.path.basename(file_path)
         file_size = os.path.getsize(file_path)
         file_hash = self.get_file_hash(file_path)
+
+        file_folders = file_path.split('/')
+        if(len(file_folders) > 1):
+            workflow_folder = file_folders[1]
+        else:
+            workflow_folder = file_folders[0]
         
         # Extract basic metadata
         workflow = {
             'filename': filename,
+            'workflow_folder': workflow_folder,
             'name': self.format_workflow_name(filename),
             'workflow_id': data.get('id', ''),
             'active': data.get('active', False),
@@ -435,8 +445,8 @@ class WorkflowDatabase:
             print(f"Warning: Workflows directory '{self.workflows_dir}' not found.")
             return {'processed': 0, 'skipped': 0, 'errors': 0}
         
-        json_files = glob.glob(os.path.join(self.workflows_dir, "*.json"))
-        
+        json_files = glob.glob(os.path.join(self.workflows_dir, "**", "*.json"), recursive=True)
+
         if not json_files:
             print(f"Warning: No JSON files found in '{self.workflows_dir}' directory.")
             return {'processed': 0, 'skipped': 0, 'errors': 0}
@@ -473,12 +483,13 @@ class WorkflowDatabase:
                 # Insert or update in database
                 conn.execute("""
                     INSERT OR REPLACE INTO workflows (
-                        filename, name, workflow_id, active, description, trigger_type,
+                        filename, workflow_folder, name, workflow_id, active, description, trigger_type,
                         complexity, node_count, integrations, tags, created_at, updated_at,
                         file_hash, file_size, analyzed_at
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
                 """, (
                     workflow_data['filename'],
+                    workflow_data['workflow_folder'],
                     workflow_data['name'],
                     workflow_data['workflow_id'],
                     workflow_data['active'],
