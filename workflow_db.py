@@ -434,8 +434,10 @@ class WorkflowDatabase:
         if not os.path.exists(self.workflows_dir):
             print(f"Warning: Workflows directory '{self.workflows_dir}' not found.")
             return {'processed': 0, 'skipped': 0, 'errors': 0}
-        
-        json_files = glob.glob(os.path.join(self.workflows_dir, "**", ".json"), recursive=True)
+
+        workflows_path = Path(self.workflows_dir)
+        json_files = list(workflows_path.rglob("*.json"))
+        # json_files = glob.glob(os.path.join(self.workflows_dir, "*.json"), recursive=True)
         
         if not json_files:
             print(f"Warning: No JSON files found in '{self.workflows_dir}' directory.")
