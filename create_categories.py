@@ -1,20 +1,20 @@
 import json
 import os
 from pathlib import Path
+import glob
+import re
 
 def load_def_categories():
     """Load the definition categories from def_categories.json"""
     def_categories_path = Path("context/def_categories.json")
     with open(def_categories_path, 'r', encoding='utf-8') as f:
-        categories_data = json.load(f)
-    
-    # Create a mapping from integration name (lowercase) to category
-    integration_to_category = {}
-    for item in categories_data:
-        integration = item['integration'].lower()
-        category = item['category']
-        integration_to_category[integration] = category
-    
+        raw_map = json.load(f)
+
+    # Normalize keys: strip non-alphanumerics and lowercase
+    integration_to_category = {
+        re.sub(r"[^a-z0-9]", "", item["integration"].lower()): item["category"]
+        for item in raw_map
+    }
     return integration_to_category
 
 def extract_tokens_from_filename(filename):
@@ -33,14 +33,17 @@ def extract_tokens_from_filename(filename):
 def find_matching_category(tokens, integration_to_category):
     """Find the first matching category for the given tokens"""
     for token in tokens:
-        if token in integration_to_category:
-            return integration_to_category[token]
+        # Normalize token same as keys
+        norm = re.sub(r"[^a-z0-9]", "", token.lower())
+        if norm in integration_to_category:
+            return integration_to_category[norm]
     
     # Try partial matches for common variations
     for token in tokens:
-        for integration in integration_to_category:
-            if token in integration or integration in token:
-                return integration_to_category[integration]
+        norm = re.sub(r"[^a-z0-9]", "", token.lower())
+        for integration_key in integration_to_category:
+            if norm in integration_key or integration_key in norm:
+                return integration_to_category[integration_key]
     
     return ""
 
@@ -50,13 +53,17 @@ def main():
     
     # Get all JSON files from workflows directory
     workflows_dir = Path("workflows")
-    json_files = list(workflows_dir.glob("*.json"))
+    json_files = glob.glob(
+        os.path.join(workflows_dir, "**", "*.json"),
+        recursive=True
+    ) 
     
     # Process each file
     search_categories = []
     
     for json_file in json_files:
-        filename = json_file.name
+        path_obj = Path(json_file)
+        filename = path_obj.name
         tokens = extract_tokens_from_filename(filename)
         category = find_matching_category(tokens, integration_to_category)
         
