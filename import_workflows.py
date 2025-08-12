@@ -10,6 +10,21 @@ import sys
 from pathlib import Path
 from typing import List, Dict, Any
 
+from categorize_workflows import categorize_by_filename
+
+
+def load_categories():
+    """Load the search categories file."""
+    try:
+        with open('context/search_categories.json', 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+
+def save_categories(data):
+    """Save the search categories file."""
+    with open('context/search_categories.json', 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
 
 class WorkflowImporter:
     """Import n8n workflows with progress tracking and error handling."""
@@ -56,6 +71,32 @@ class WorkflowImporter:
             
             if result.returncode == 0:
                 print(f"✅ Imported: {file_path.name}")
+                
+                # Categorize the workflow and update search_categories.json
+                suggested_category = categorize_by_filename(file_path.name)
+                
+                all_workflows_data = load_categories()
+                
+                found = False
+                for workflow_entry in all_workflows_data:
+                    if workflow_entry.get('filename') == file_path.name:
+                        workflow_entry['category'] = suggested_category
+                        found = True
+                        break
+                
+                if not found:
+                    # Add new workflow entry if not found (e.g., first import)
+                    all_workflows_data.append({
+                        "filename": file_path.name,
+                        "category": suggested_category,
+                        "name": file_path.stem, # Assuming workflow name is filename without extension
+                        "description": "", # Placeholder, can be updated manually
+                        "nodes": [] # Placeholder, can be updated manually
+                    })
+                
+                save_categories(all_workflows_data)
+                print(f"  Categorized '{file_path.name}' as '{suggested_category or 'Uncategorized'}'")
+                
                 return True
             else:
                 error_msg = result.stderr.strip() or result.stdout.strip()
@@ -141,6 +182,7 @@ def check_n8n_available() -> bool:
 
 def main():
     """Main entry point."""
+    sys.stdout.reconfigure(encoding='utf-8')
     print("🔧 N8N Workflow Importer")
     print("=" * 40)
     

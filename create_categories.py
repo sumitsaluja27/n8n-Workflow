@@ -47,6 +47,103 @@ def find_matching_category(tokens, integration_to_category):
     
     return ""
 
+def categorize_by_filename(filename):
+    """
+    Categorize workflow based on filename patterns.
+    Returns the most likely category or None if uncertain.
+    """
+    filename_lower = filename.lower()
+    
+    # Security & Authentication
+    if any(word in filename_lower for word in ['totp', 'bitwarden', 'auth', 'security']):
+        return "Technical Infrastructure & DevOps"
+
+    # Data Processing & File Operations
+    if any(word in filename_lower for word in ['process', 'writebinaryfile', 'readbinaryfile', 'extractfromfile', 'converttofile', 'googlefirebasecloudfirestore', 'supabase', 'surveymonkey', 'renamekeys', 'readpdf', 'wufoo', 'splitinbatches', 'airtop', 'comparedatasets', 'spreadsheetfile']):
+        return "Data Processing & Analysis"
+
+    # Utility & Business Process Automation
+    if any(word in filename_lower for word in ['noop', 'code', 'schedule', 'filter', 'splitout', 'wait', 'limit', 'aggregate', 'acuityscheduling', 'eventbrite', 'philipshue', 'stickynote', 'n8ntrainingcustomerdatastore', 'n8n']):
+        return "Business Process Automation"
+
+    # Webhook & API related
+    if any(word in filename_lower for word in ['webhook', 'respondtowebhook', 'http', 'rssfeedread']):
+        return "Web Scraping & Data Extraction"
+
+    # Form & Data Collection
+    if any(word in filename_lower for word in ['form', 'typeform', 'jotform']):
+        return "Data Processing & Analysis"
+
+    # Local file operations
+    if any(word in filename_lower for word in ['localfile', 'filemaker']):
+        return "Cloud Storage & File Management"
+
+    # Database operations
+    if any(word in filename_lower for word in ['postgres', 'mysql', 'mongodb', 'redis', 'elasticsearch', 'snowflake']):
+        return "Data Processing & Analysis"
+
+    # AI & Machine Learning
+    if any(word in filename_lower for word in ['openai', 'awstextract', 'awsrekognition', 'humanticai', 'openthesaurus', 'googletranslate', 'summarize']):
+        return "AI Agent Development"
+
+    # E-commerce specific
+    if any(word in filename_lower for word in ['woocommerce', 'gumroad']):
+        return "E-commerce & Retail"
+
+    # Social media specific
+    if any(word in filename_lower for word in ['facebook', 'linkedin', 'instagram']):
+        return "Social Media Management"
+
+    # Customer support
+    if any(word in filename_lower for word in ['zendesk', 'intercom', 'drift', 'pagerduty']):
+        return "Communication & Messaging"
+
+    # Analytics & Tracking
+    if any(word in filename_lower for word in ['googleanalytics', 'segment', 'mixpanel']):
+        return "Data Processing & Analysis"
+
+    # Development tools
+    if any(word in filename_lower for word in ['git', 'github', 'gitlab', 'travisci', 'jenkins', 'uptimerobot', 'gsuiteadmin', 'debughelper', 'bitbucket']):
+        return "Technical Infrastructure & DevOps"
+
+    # CRM & Sales tools
+    if any(word in filename_lower for word in ['pipedrive', 'hubspot', 'salesforce', 'copper', 'orbit', 'agilecrm']):
+        return "CRM & Sales"
+
+    # Marketing tools
+    if any(word in filename_lower for word in ['mailchimp', 'convertkit', 'sendgrid', 'mailerlite', 'lemlist', 'sendy', 'postmark', 'mailgun']):
+        return "Marketing & Advertising Automation"
+
+    # Project management
+    if any(word in filename_lower for word in ['asana', 'mondaycom', 'clickup', 'trello', 'notion', 'toggl', 'microsofttodo', 'calendly', 'jira']):
+        return "Project Management"
+
+    # Communication
+    if any(word in filename_lower for word in ['slack', 'telegram', 'discord', 'mattermost', 'twilio', 'emailreadimap', 'teams', 'gotowebinar']):
+        return "Communication & Messaging"
+
+    # Cloud storage
+    if any(word in filename_lower for word in ['dropbox', 'googledrive', 'onedrive', 'awss3', 'googledocs']):
+        return "Cloud Storage & File Management"
+
+    # Creative tools
+    if any(word in filename_lower for word in ['canva', 'figma', 'bannerbear', 'editimage']):
+        return "Creative Design Automation"
+
+    # Video & content
+    if any(word in filename_lower for word in ['youtube', 'vimeo', 'storyblok', 'strapi']):
+        return "Creative Content & Video Automation"
+
+    # Financial tools
+    if any(word in filename_lower for word in ['stripe', 'chargebee', 'quickbooks', 'harvest']):
+        return "Financial & Accounting"
+
+    # Weather & external APIs
+    if any(word in filename_lower for word in ['openweathermap', 'nasa', 'crypto', 'coingecko']):
+        return "Web Scraping & Data Extraction"
+
+    return ""
+
 def main():
     # Load definition categories
     integration_to_category = load_def_categories()
@@ -71,6 +168,11 @@ def main():
             "filename": filename,
             "category": category
         })
+
+    # Second pass for categorization
+    for item in search_categories:
+        if not item['category']:
+            item['category'] = categorize_by_filename(item['filename'])
     
     # Sort by filename for consistency
     search_categories.sort(key=lambda x: x['filename'])
