@@ -5,11 +5,11 @@
   },
   {
     "filename": "0002_Manual_Totp_Automation_Triggered.json",
-    "category": ""
+    "category": "Technical Infrastructure & DevOps"
   },
   {
     "filename": "0003_Bitwarden_Automate.json",
-    "category": ""
+    "category": "Technical Infrastructure & DevOps"
   },
   {
     "filename": "0004_GoogleSheets_Typeform_Automate_Triggered.json",
@@ -33,11 +33,11 @@
   },
   {
     "filename": "0009_Process.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0010_Writebinaryfile_Create.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0011_Manual_Copper_Automate_Triggered.json",
@@ -49,7 +49,7 @@
   },
   {
     "filename": "0013_Manual_Noop_Import_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0014_Manual_Coda_Create_Triggered.json",
@@ -125,7 +125,7 @@
   },
   {
     "filename": "0032_Manual_Filemaker_Automate_Triggered.json",
-    "category": ""
+    "category": "Cloud Storage & File Management"
   },
   {
     "filename": "0033_HTTP_Mqtt_Automation_Webhook.json",
@@ -133,7 +133,7 @@
   },
   {
     "filename": "0034_Code_Filter_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0035_GoogleSheets_Webhook_Automate_Webhook.json",
@@ -153,7 +153,7 @@
   },
   {
     "filename": "0039_Calendly_Notion_Automate_Triggered.json",
-    "category": ""
+    "category": "Project Management"
   },
   {
     "filename": "0040_Mattermost_Noop_Automate_Triggered.json",
@@ -169,7 +169,7 @@
   },
   {
     "filename": "0043_Humanticai_Calendly_Automate_Triggered.json",
-    "category": ""
+    "category": "AI Agent Development"
   },
   {
     "filename": "0044_Trello_Googlecloudnaturallanguage_Automate_Triggered.json",
@@ -213,7 +213,7 @@
   },
   {
     "filename": "0054_Manual_Writebinaryfile_Automate_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0055_Signl4_Interval_Create_Scheduled.json",
@@ -229,7 +229,7 @@
   },
   {
     "filename": "0058_Manual_Readbinaryfile_Automate_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0059_Manual_Twitter_Automate_Triggered.json",
@@ -253,7 +253,7 @@
   },
   {
     "filename": "0064_Manual_Writebinaryfile_Automate_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0065_Openweathermap_Line_Update_Scheduled.json",
@@ -261,7 +261,7 @@
   },
   {
     "filename": "0066_Webhook_Cron_Automate_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0067_Manual_Uproc_Automation_Triggered.json",
@@ -277,7 +277,7 @@
   },
   {
     "filename": "0070_Splitinbatches_Notion_Export_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0071_Pipedrive_Update_Triggered.json",
@@ -297,7 +297,7 @@
   },
   {
     "filename": "0075_Manual_Noop_Update_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0076_Trello_Update_Triggered.json",
@@ -361,7 +361,7 @@
   },
   {
     "filename": "0091_Wait_Splitout_Process_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0092_Wait_Datetime_Automate_Triggered.json",
@@ -385,7 +385,7 @@
   },
   {
     "filename": "0097_Executecommand_Mailgun_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0098_Manual_Segment_Monitor_Triggered.json",
@@ -401,7 +401,7 @@
   },
   {
     "filename": "0101_Wait_Manual_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0102_Manual_HTTP_Create_Webhook.json",
@@ -413,7 +413,7 @@
   },
   {
     "filename": "0104_Netlify_Webhook_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0105_Netlify_Slack_Automate_Triggered.json",
@@ -437,7 +437,7 @@
   },
   {
     "filename": "0110_Manual_Humanticai_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0111_Manual_Vero_Create_Triggered.json",
@@ -445,7 +445,7 @@
   },
   {
     "filename": "0112_Manual_Awstextract_Automate_Triggered.json",
-    "category": ""
+    "category": "AI Agent Development"
   },
   {
     "filename": "0113_Emailsend_GoogleDrive_Send_Triggered.json",
@@ -469,11 +469,11 @@
   },
   {
     "filename": "0118_Readbinaryfile_Onfleet_Create.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0119_Manual_Cron_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0120_Manual_GoogleSheets_Automate_Triggered.json",
@@ -481,7 +481,7 @@
   },
   {
     "filename": "0121_Respondtowebhook_Webhook_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0122_Manual_Flow_Import_Triggered.json",
@@ -497,7 +497,7 @@
   },
   {
     "filename": "0125_Calendly_Notion_Automate_Triggered.json",
-    "category": ""
+    "category": "Project Management"
   },
   {
     "filename": "0126_Error_Slack_Automate_Triggered.json",
@@ -505,11 +505,11 @@
   },
   {
     "filename": "0127_Manual_Noop_Monitor_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0128_Manual_N8Ntrainingcustomerdatastore_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0129_HubSpot_Cron_Update_Scheduled.json",
@@ -521,7 +521,7 @@
   },
   {
     "filename": "0131_Manual_Start_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0132_Mattermost_Googlecloudnaturallanguage_Send_Triggered.json",
@@ -561,11 +561,11 @@
   },
   {
     "filename": "0141_Notion_Webhook_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0142_Notion_Webhook_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0143_HTTP_Gitlab_Automation_Webhook.json",
@@ -649,15 +649,15 @@
   },
   {
     "filename": "0163_Respondtowebhook_Spreadsheetfile_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0164_Crypto_Webhook_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0165_Webhook_Respondtowebhook_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0166_Manual_Lingvanex_Automation_Webhook.json",
@@ -681,7 +681,7 @@
   },
   {
     "filename": "0171_Readbinaryfiles_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0172_Noop_GoogleSheets_Create_Webhook.json",
@@ -693,7 +693,7 @@
   },
   {
     "filename": "0174_Noop_Emailsend_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0175_Manual_Sendy_Create_Triggered.json",
@@ -773,7 +773,7 @@
   },
   {
     "filename": "0194_Respondtowebhook_Webhook_Import_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0195_Manual_Pagerduty_Create_Triggered.json",
@@ -797,7 +797,7 @@
   },
   {
     "filename": "0200_Manual_Executecommand_Export_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0201_Telegram_Executecommand_Process_Webhook.json",
@@ -809,7 +809,7 @@
   },
   {
     "filename": "0203_Manual_Writebinaryfile_Automation_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0204_Manual_Questdb_Create_Triggered.json",
@@ -821,7 +821,7 @@
   },
   {
     "filename": "0206_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0207_Manual_Slack_Create_Webhook.json",
@@ -841,7 +841,7 @@
   },
   {
     "filename": "0211_Interval_Amqp_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0212_Noop_Cratedb_Automation_Triggered.json",
@@ -849,11 +849,11 @@
   },
   {
     "filename": "0213_Manual_Markdown_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0214_Manual_Markdown_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0215_Typeform_Clickup_Automation_Triggered.json",
@@ -873,11 +873,11 @@
   },
   {
     "filename": "0219_Manual_Snowflake_Create_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0220_Readbinaryfile_Manual_Automate_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0221_Gmail_Movebinarydata_Send.json",
@@ -917,7 +917,7 @@
   },
   {
     "filename": "0230_N8Ntrainingcustomermessenger_Wait_Create_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0231_Telegram_Nasa_Send_Scheduled.json",
@@ -925,7 +925,7 @@
   },
   {
     "filename": "0232_Respondtowebhook_Stickynote_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0233_Manual_N8Ntrainingcustomerdatastore_Create_Triggered.json",
@@ -953,7 +953,7 @@
   },
   {
     "filename": "0239_Code_Typeform_Create_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0240_Manual_Gmail_Create_Triggered.json",
@@ -997,7 +997,7 @@
   },
   {
     "filename": "0250_Manual_Baserow_Update_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0251_Pipedrive_Spreadsheetfile_Create_Triggered.json",
@@ -1037,7 +1037,7 @@
   },
   {
     "filename": "0260_Webhook_Respondtowebhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0261_Manual_Googlefirebasecloudfirestore_Create_Triggered.json",
@@ -1045,7 +1045,7 @@
   },
   {
     "filename": "0262_Typeform_Spreadsheetfile_Automate_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0263_Postgres_Code_Automation_Webhook.json",
@@ -1089,7 +1089,7 @@
   },
   {
     "filename": "0273_Code_Webhook_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0274_Zendesk_Asana_Create_Webhook.json",
@@ -1121,7 +1121,7 @@
   },
   {
     "filename": "0281_Stickynote_Notion_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0282_Clickup_Notion_Update_Triggered.json",
@@ -1133,7 +1133,7 @@
   },
   {
     "filename": "0284_Manual_Readbinaryfile_Create_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0285_Zendesk_HubSpot_Create_Scheduled.json",
@@ -1149,7 +1149,7 @@
   },
   {
     "filename": "0288_Code_Schedule_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0289_GitHub_Stickynote_Update_Triggered.json",
@@ -1157,7 +1157,7 @@
   },
   {
     "filename": "0290_Wait_Code_Update_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0291_Noop_Rabbitmq_Send_Triggered.json",
@@ -1169,7 +1169,7 @@
   },
   {
     "filename": "0293_Manual_Woocommerce_Create_Triggered.json",
-    "category": ""
+    "category": "E-commerce & Retail"
   },
   {
     "filename": "0294_Mattermost_Woocommerce_Create_Triggered.json",
@@ -1177,15 +1177,15 @@
   },
   {
     "filename": "0295_Webhook_Dropcontact_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0296_Code_Webhook_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0297_Manual_Openai_Export_Triggered.json",
-    "category": ""
+    "category": "AI Agent Development"
   },
   {
     "filename": "0298_Code_Readpdf_Send_Triggered.json",
@@ -1193,7 +1193,7 @@
   },
   {
     "filename": "0299_Code_Webhook_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0300_Manual_Egoi_Create_Triggered.json",
@@ -1213,7 +1213,7 @@
   },
   {
     "filename": "0304_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0305_Manual_Telegram_Create_Triggered.json",
@@ -1229,11 +1229,11 @@
   },
   {
     "filename": "0308_Code_Schedule_Automate_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0309_Code_Filter_Automate_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0310_HTTP_Manual_Automation_Webhook.json",
@@ -1269,7 +1269,7 @@
   },
   {
     "filename": "0318_Splitout_Limit_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0319_Gmail_Googlecalendartool_Send_Triggered.json",
@@ -1289,7 +1289,7 @@
   },
   {
     "filename": "0323_Manual_Stickynote_Process_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0324_Manual_Stickynote_Update_Triggered.json",
@@ -1329,11 +1329,11 @@
   },
   {
     "filename": "0333_Stopanderror_Webhook_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0334_Openai_Form_Create_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0335_Filter_Telegram_Send_Triggered.json",
@@ -1341,19 +1341,19 @@
   },
   {
     "filename": "0336_Manual_Snowflake_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0337_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0338_Manual_Stickynote_Export_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0339_Splitout_Code_Update_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0340_Telegram_Automation_Webhook.json",
@@ -1361,7 +1361,7 @@
   },
   {
     "filename": "0341_Code_Filter_Import_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0342_Manual_GoogleCalendar_Create_Triggered.json",
@@ -1401,11 +1401,11 @@
   },
   {
     "filename": "0351_Readbinaryfile_Manual_Automate_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0352_Readbinaryfile_Spreadsheetfile_Create.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0353_Manual_Twilio_Send_Triggered.json",
@@ -1461,7 +1461,7 @@
   },
   {
     "filename": "0366_Code_Manual_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0367_Code_Manual_Send_Webhook.json",
@@ -1469,7 +1469,7 @@
   },
   {
     "filename": "0368_Stickynote_Webhook_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0369_Manual_Airtable_Automation_Triggered.json",
@@ -1477,7 +1477,7 @@
   },
   {
     "filename": "0370_Code_Schedule_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0371_Executeworkflow_Summarize_Send_Triggered.json",
@@ -1489,7 +1489,7 @@
   },
   {
     "filename": "0373_Code_Webhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0374_Manual_Stickynote_Send_Webhook.json",
@@ -1501,7 +1501,7 @@
   },
   {
     "filename": "0376_Webhook_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0377_Manual_Stickynote_Update_Triggered.json",
@@ -1509,7 +1509,7 @@
   },
   {
     "filename": "0378_Stickynote_Notion_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0379_Code_Pipedrive_Create_Triggered.json",
@@ -1517,7 +1517,7 @@
   },
   {
     "filename": "0380_Code_Manual_Create_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0381_Telegram_Code_Update_Webhook.json",
@@ -1541,7 +1541,7 @@
   },
   {
     "filename": "0386_Splitout_Filter_Update_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0387_Redis_Code_Create_Scheduled.json",
@@ -1553,7 +1553,7 @@
   },
   {
     "filename": "0389_Manual_Googleanalytics_Import_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0390_HTTP_Manual_Automation_Webhook.json",
@@ -1561,7 +1561,7 @@
   },
   {
     "filename": "0391_Code_Filter_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0392_Stopanderror_GitHub_Automate_Webhook.json",
@@ -1585,7 +1585,7 @@
   },
   {
     "filename": "0397_Code_Schedule_Import_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0398_Telegram_Wait_Send_Webhook.json",
@@ -1597,7 +1597,7 @@
   },
   {
     "filename": "0400_Manual_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0401_Code_Filter_Send_Triggered.json",
@@ -1605,7 +1605,7 @@
   },
   {
     "filename": "0402_Schedule_Filter_Update_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0403_Beeminder_Strava_Create_Triggered.json",
@@ -1637,7 +1637,7 @@
   },
   {
     "filename": "0410_Webhook_Filter_Update_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0411_Filter_Form_Send_Triggered.json",
@@ -1653,7 +1653,7 @@
   },
   {
     "filename": "0414_Webhook_Filter_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0415_Code_GoogleCalendar_Create_Webhook.json",
@@ -1669,7 +1669,7 @@
   },
   {
     "filename": "0418_Splitout_Filter_Export_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0419_Telegram_Automate_Triggered.json",
@@ -1681,7 +1681,7 @@
   },
   {
     "filename": "0421_Splitout_Schedule_Import_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0422_Schedule_HTTP_Send_Webhook.json",
@@ -1705,7 +1705,7 @@
   },
   {
     "filename": "0427_Stopanderror_Wait_Monitor_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0428_Splitout_GoogleCalendar_Send_Webhook.json",
@@ -1717,7 +1717,7 @@
   },
   {
     "filename": "0430_Calendly_Filter_Create_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0431_Filter_Convertkit_Create_Triggered.json",
@@ -1725,19 +1725,19 @@
   },
   {
     "filename": "0432_Schedule_Filter_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0433_Splitout_Webhook_Update_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0434_Splitout_Webhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0435_Splitout_Filter_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0436_Hunter_Pipedrive_Create_Triggered.json",
@@ -1745,15 +1745,15 @@
   },
   {
     "filename": "0437_Code_Filter_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0438_Code_Filter_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0439_Manual_Schedule_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0440_HTTP_Stickynote_Create_Webhook.json",
@@ -1769,7 +1769,7 @@
   },
   {
     "filename": "0443_Schedule_Filter_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0444_Datetime_Todoist_Create_Webhook.json",
@@ -1777,7 +1777,7 @@
   },
   {
     "filename": "0445_Splitout_Code_Import_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0446_Code_Todoist_Create_Scheduled.json",
@@ -1793,7 +1793,7 @@
   },
   {
     "filename": "0449_Splitout_Webhook_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0450_HTTP_Stickynote_Create_Webhook.json",
@@ -1805,11 +1805,11 @@
   },
   {
     "filename": "0452_Splitout_Webhook_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0453_Webhook_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0454_Error_Telegram_Send_Triggered.json",
@@ -1825,15 +1825,15 @@
   },
   {
     "filename": "0457_Splitout_Webhook_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0458_Manual_Code_Create_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0459_Splitout_Webhook_Update_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0460_Postgres_Filter_Import_Scheduled.json",
@@ -1841,7 +1841,7 @@
   },
   {
     "filename": "0461_Graphql_Webhook_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0462_Telegram_Code_Create_Webhook.json",
@@ -1853,7 +1853,7 @@
   },
   {
     "filename": "0464_Openai_Form_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0465_Telegram_Filter_Send_Scheduled.json",
@@ -1869,7 +1869,7 @@
   },
   {
     "filename": "0468_Splitout_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0469_Clickup_Respondtowebhook_Create_Webhook.json",
@@ -1889,7 +1889,7 @@
   },
   {
     "filename": "0473_Limit_Code_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0474_Schedule_GoogleSheets_Automation_Scheduled.json",
@@ -1897,7 +1897,7 @@
   },
   {
     "filename": "0475_Googleanalytics_Code_Automate_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0476_Manual_Youtube_Create_Triggered.json",
@@ -1913,7 +1913,7 @@
   },
   {
     "filename": "0479_Grist_Stickynote_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0480_Aggregate_Telegram_Automate_Triggered.json",
@@ -1925,15 +1925,15 @@
   },
   {
     "filename": "0482_Code_Respondtowebhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0483_Webhook_Extractfromfile_Update_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0484_Form_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0485_HTTP_Stickynote_Create_Webhook.json",
@@ -1961,7 +1961,7 @@
   },
   {
     "filename": "0491_Code_Webhook_Monitor_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0492_HTTP_Respondtowebhook_Create_Webhook.json",
@@ -1989,11 +1989,11 @@
   },
   {
     "filename": "0498_Wait_Splitout_Process_Scheduled.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0499_Webhook_Respondtowebhook_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0500_Splitout_Schedule_Send_Scheduled.json",
@@ -2009,7 +2009,7 @@
   },
   {
     "filename": "0503_Splitout_Code_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0504_Lemlist_Slack_Create_Webhook.json",
@@ -2021,19 +2021,19 @@
   },
   {
     "filename": "0506_Code_Filter_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0507_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0508_Converttofile_Manual_Process_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0509_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0510_HTTP_Schedule_Automation_Webhook.json",
@@ -2045,15 +2045,15 @@
   },
   {
     "filename": "0512_Splitout_Code_Update_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0513_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0514_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0515_Manual_HTTP_Automation_Webhook.json",
@@ -2073,27 +2073,27 @@
   },
   {
     "filename": "0519_Code_Manual_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0520_Splitout_Filter_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0521_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0522_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0523_Wait_Splitout_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0524_Googledocs_Webhook_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0525_Bannerbear_Discord_Create_Webhook.json",
@@ -2105,7 +2105,7 @@
   },
   {
     "filename": "0527_Schedule_Manual_Update_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0528_Splitout_GoogleCalendar_Create_Scheduled.json",
@@ -2125,19 +2125,19 @@
   },
   {
     "filename": "0532_Splitout_Elasticsearch_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0533_Wait_Code_Export_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0534_Executecommand_Localfile_Process_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0535_Localfile_Manual_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0536_Localfile_Splitout_Send_Triggered.json",
@@ -2145,7 +2145,7 @@
   },
   {
     "filename": "0537_Localfile_Wait_Create_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0538_Wait_Splitout_Send_Webhook.json",
@@ -2157,7 +2157,7 @@
   },
   {
     "filename": "0540_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0541_Manual_Stickynote_Update_Triggered.json",
@@ -2181,15 +2181,15 @@
   },
   {
     "filename": "0546_Code_Schedule_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0547_Wait_Splitout_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0548_Code_Webhook_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0549_HTTP_Filter_Monitor_Webhook.json",
@@ -2213,15 +2213,15 @@
   },
   {
     "filename": "0554_Splitout_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0555_Splitout_Code_Export_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0556_Splitout_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0557_Gitlab_Filter_Create_Scheduled.json",
@@ -2237,7 +2237,7 @@
   },
   {
     "filename": "0560_Splitout_Filter_Import_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0561_Gitlab_Code_Create_Triggered.json",
@@ -2245,11 +2245,11 @@
   },
   {
     "filename": "0562_Splitout_Filter_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0563_Schedule_Filter_Update_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0564_Supabase_Stickynote_Create_Triggered.json",
@@ -2265,7 +2265,7 @@
   },
   {
     "filename": "0567_Wait_Code_Export_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0568_Manual_Zendesk_Automation_Scheduled.json",
@@ -2293,7 +2293,7 @@
   },
   {
     "filename": "0574_Stickynote_Notion_Create_Triggered.json",
-    "category": ""
+    "category": "Project Management"
   },
   {
     "filename": "0575_Editimage_Manual_Update_Webhook.json",
@@ -2301,7 +2301,7 @@
   },
   {
     "filename": "0576_Respondtowebhook_Form_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0577_Code_Editimage_Update_Webhook.json",
@@ -2309,7 +2309,7 @@
   },
   {
     "filename": "0578_Wait_Schedule_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0579_Splitout_Editimage_Update_Triggered.json",
@@ -2329,7 +2329,7 @@
   },
   {
     "filename": "0583_Wait_Splitout_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0584_Strapi_Splitout_Create_Webhook.json",
@@ -2341,7 +2341,7 @@
   },
   {
     "filename": "0586_Respondtowebhook_Stickynote_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0587_Splitout_Filter_Send_Webhook.json",
@@ -2353,7 +2353,7 @@
   },
   {
     "filename": "0589_Manual_Filter_Update_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0590_Respondtowebhook_Stickynote_Send_Webhook.json",
@@ -2361,7 +2361,7 @@
   },
   {
     "filename": "0591_Webhook_Respondtowebhook_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0592_Stopanderror_Awss3_Automation_Webhook.json",
@@ -2381,11 +2381,11 @@
   },
   {
     "filename": "0596_Wait_Code_Import_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0597_Respondtowebhook_Stickynote_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0598_Code_Editimage_Update_Webhook.json",
@@ -2397,11 +2397,11 @@
   },
   {
     "filename": "0600_Code_Extractfromfile_Create_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0601_Extractfromfile_Manual_Create_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0602_Wait_Splitout_Send_Webhook.json",
@@ -2409,15 +2409,15 @@
   },
   {
     "filename": "0603_Wait_Splitout_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0604_Jiratool_Schedule_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0605_Code_Itemlists_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0606_HTTP_Respondtowebhook_Create_Webhook.json",
@@ -2425,15 +2425,15 @@
   },
   {
     "filename": "0607_Splitout_Aggregate_Automate_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0608_Splitout_Code_Import_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0609_Wait_Limit_Import_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0610_Noop_Twilio_Automate_Scheduled.json",
@@ -2449,31 +2449,31 @@
   },
   {
     "filename": "0613_Splitout_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0614_Splitout_Manual_Import_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0615_Webhook_Filemaker_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0616_Elasticsearch_Cron_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0617_Manual_Noop_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0618_Splitout_Code_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0619_Webhook_Respondtowebhook_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0620_Wait_Slack_Automate_Webhook.json",
@@ -2497,7 +2497,7 @@
   },
   {
     "filename": "0625_Splitout_Code_Create_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0626_HTTP_Schedule_Create_Scheduled.json",
@@ -2505,19 +2505,19 @@
   },
   {
     "filename": "0627_Wait_Splitout_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0628_Code_Schedule_Export_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0629_Wait_Code_Update_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0630_Code_Webhook_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0631_Schedule_Wordpress_Automate_Scheduled.json",
@@ -2525,7 +2525,7 @@
   },
   {
     "filename": "0632_Webhook_Manual_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0633_Form_GoogleSheets_Create_Triggered.json",
@@ -2533,7 +2533,7 @@
   },
   {
     "filename": "0634_Splitout_Manual_Export_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0635_GoogleSheets_Webflow_Create_Triggered.json",
@@ -2557,7 +2557,7 @@
   },
   {
     "filename": "0640_Wait_Splitout_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0641_HTTP_Rssfeedread_Create_Webhook.json",
@@ -2569,7 +2569,7 @@
   },
   {
     "filename": "0643_Splitout_Snowflake_Import_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0644_Webhook_Slack_Create_Webhook.json",
@@ -2577,11 +2577,11 @@
   },
   {
     "filename": "0645_Splitout_Code_Sync_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0646_Extractfromfile_Form_Export_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0647_GoogleCalendar_Form_Create_Triggered.json",
@@ -2597,15 +2597,15 @@
   },
   {
     "filename": "0650_Splitout_Webhook_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0651_Code_Schedule_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0652_Splitout_Schedule_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0653_Manual_Convertkit_Create_Triggered.json",
@@ -2613,7 +2613,7 @@
   },
   {
     "filename": "0654_Splitout_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0655_Code_Postgres_Update_Scheduled.json",
@@ -2625,35 +2625,35 @@
   },
   {
     "filename": "0657_Splitout_Schedule_Update_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0658_Code_Schedule_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0659_Splitout_Schedule_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0660_Calendly_Noop_Create_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0661_Calendly_Noop_Create_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0662_Manual_Schedule_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0663_Splitout_Schedule_Update_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0664_Splitout_Limit_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0665_Code_Editimage_Update_Webhook.json",
@@ -2669,11 +2669,11 @@
   },
   {
     "filename": "0668_Wait_Splitout_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0669_Code_Webhook_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0670_Code_Microsoftoutlook_Create_Webhook.json",
@@ -2681,23 +2681,23 @@
   },
   {
     "filename": "0671_Code_Converttofile_Create_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0672_Webhook_Schedule_Update_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0673_Limit_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0674_Limit_Webhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0675_Limit_Code_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0676_Telegram_Splitout_Import_Webhook.json",
@@ -2741,7 +2741,7 @@
   },
   {
     "filename": "0686_Code_Webhook_Update_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0687_HTTP_Form_Automation_Webhook.json",
@@ -2761,39 +2761,39 @@
   },
   {
     "filename": "0691_Aggregate_Jotform_Create_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0692_Webhook_Code_Update_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0693_Code_Webhook_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0694_Extractfromfile_Manual_Automation_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0695_Aggregate_Stickynote_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0696_Code_Webhook_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0697_Aggregate_Typeform_Create_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0698_Splitout_Code_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0699_Splitout_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0700_Code_Respondtowebhook_Send_Webhook.json",
@@ -2821,7 +2821,7 @@
   },
   {
     "filename": "0706_Code_Schedule_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0707_HTTP_Stripe_Create_Webhook.json",
@@ -2829,7 +2829,7 @@
   },
   {
     "filename": "0708_Code_Filter_Update_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0709_Code_HTTP_Create_Webhook.json",
@@ -2837,7 +2837,7 @@
   },
   {
     "filename": "0710_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0711_Schedule_Slack_Create_Scheduled.json",
@@ -2845,7 +2845,7 @@
   },
   {
     "filename": "0712_Splitout_Code_Update_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0713_Manual_HTTP_Update_Webhook.json",
@@ -2857,11 +2857,11 @@
   },
   {
     "filename": "0715_Wait_Schedule_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0716_Wait_Webhook_Process_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0717_HTTP_Schedule_Create_Scheduled.json",
@@ -2873,11 +2873,11 @@
   },
   {
     "filename": "0719_Stopanderror_Splitout_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0720_Schedule_Filter_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0721_Wordpress_Converttofile_Process_Triggered.json",
@@ -2885,7 +2885,7 @@
   },
   {
     "filename": "0722_Webhook_Respondtowebhook_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0723_Convertkit_Create_Triggered.json",
@@ -2893,19 +2893,19 @@
   },
   {
     "filename": "0724_Splitout_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0725_Splitout_Code_Update_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0726_Code_Schedule_Update_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0727_Stickynote_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0728_Manual_GoogleSheets_Update_Triggered.json",
@@ -2921,7 +2921,7 @@
   },
   {
     "filename": "0731_Splitout_Limit_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0732_Form_Youtube_Update_Triggered.json",
@@ -2929,7 +2929,7 @@
   },
   {
     "filename": "0733_Form_Code_Create_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0734_Manual_HTTP_Create_Webhook.json",
@@ -2957,11 +2957,11 @@
   },
   {
     "filename": "0740_Splitout_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0741_Extractfromfile_Stickynote_Automation_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0742_Telegram_Splitout_Create_Webhook.json",
@@ -2969,7 +2969,7 @@
   },
   {
     "filename": "0743_Stopanderror_Wait_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0744_Manual_Googletasks_Create_Triggered.json",
@@ -2985,7 +2985,7 @@
   },
   {
     "filename": "0747_Writebinaryfile_Spreadsheetfile_Automate.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0748_Noop_Telegram_Automation_Scheduled.json",
@@ -3009,7 +3009,7 @@
   },
   {
     "filename": "0753_Code_Executiondata_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0754_Googleslides_Noop_Automation_Triggered.json",
@@ -3029,11 +3029,11 @@
   },
   {
     "filename": "0758_Schedule_Manual_Monitor_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0759_Splitout_Comparedatasets_Create_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0760_Splitout_Code_Send_Webhook.json",
@@ -3045,23 +3045,23 @@
   },
   {
     "filename": "0762_Aggregate_Stickynote_Create_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0763_Wait_Splitout_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0764_Wait_Splitout_Create_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0765_Wait_Splitout_Create_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0766_Wait_Limit_Update_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0767_Code_Filter_Send_Webhook.json",
@@ -3077,7 +3077,7 @@
   },
   {
     "filename": "0770_Manual_Stickynote_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0771_HTTP_Telegram_Create_Webhook.json",
@@ -3085,15 +3085,15 @@
   },
   {
     "filename": "0772_Splitout_Filter_Process_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0773_Code_Manual_Update_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0774_Splitout_Code_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0775_HTTP_Executecommand_Automate_Webhook.json",
@@ -3105,7 +3105,7 @@
   },
   {
     "filename": "0777_Code_Filter_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0778_HTTP_Stickynote_Import_Webhook.json",
@@ -3117,11 +3117,11 @@
   },
   {
     "filename": "0780_Splitout_Filter_Process_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0781_Code_Schedule_Export_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0782_Telegram_Redis_Create_Webhook.json",
@@ -3133,7 +3133,7 @@
   },
   {
     "filename": "0784_Code_Form_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0785_Openai_Twitter_Create.json",
@@ -3141,7 +3141,7 @@
   },
   {
     "filename": "0786_Stopanderror_Stickynote_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0787_Code_GoogleCalendar_Create_Webhook.json",
@@ -3149,7 +3149,7 @@
   },
   {
     "filename": "0788_Googletranslate_Noop_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0789_Telegram_Code_Create_Triggered.json",
@@ -3157,15 +3157,15 @@
   },
   {
     "filename": "0790_Splitout_Schedule_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0791_Stopanderror_Splitout_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0792_Splitout_Code_Monitor_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0793_Splitout_Code_Send_Triggered.json",
@@ -3173,7 +3173,7 @@
   },
   {
     "filename": "0794_Code_Schedule_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0795_Schedule_Mailchimp_Create_Scheduled.json",
@@ -3185,15 +3185,15 @@
   },
   {
     "filename": "0797_Splitout_Code_Monitor_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0798_Splitout_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0799_Splitout_Executecommand_Automate_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0800_Aggregate_Telegram_Automate_Triggered.json",
@@ -3201,11 +3201,11 @@
   },
   {
     "filename": "0801_Filter_Schedule_Import_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0802_Webhook_Nocodb_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0803_Manual_Customerio_Create_Triggered.json",
@@ -3237,11 +3237,11 @@
   },
   {
     "filename": "0810_Splitout_Schedule_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0811_Respondtowebhook_Webhook_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0812_GoogleSheets_GoogleDrive_Automate_Triggered.json",
@@ -3249,7 +3249,7 @@
   },
   {
     "filename": "0813_Webhook_Respondtowebhook_Process_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0814_GoogleSheets_Gmail_Send_Triggered.json",
@@ -3261,11 +3261,11 @@
   },
   {
     "filename": "0816_Splitout_Code_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0817_Schedule_Removeduplicates_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0818_GoogleSheets_Respondtowebhook_Import_Webhook.json",
@@ -3273,7 +3273,7 @@
   },
   {
     "filename": "0819_Splitout_Schedule_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0820_Wait_Code_Send_Webhook.json",
@@ -3281,7 +3281,7 @@
   },
   {
     "filename": "0821_Manual_Noop_Create_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0822_Cron_Postgres_Automation_Scheduled.json",
@@ -3301,7 +3301,7 @@
   },
   {
     "filename": "0826_Wait_Splitout_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0827_Manual_Functionitem_Send_Triggered.json",
@@ -3313,7 +3313,7 @@
   },
   {
     "filename": "0829_Webhook_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0830_Filter_Summarize_Send_Scheduled.json",
@@ -3321,15 +3321,15 @@
   },
   {
     "filename": "0831_Wait_Code_Monitor_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0832_Splitout_Limit_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0833_Splitout_Schedule_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0834_Webhook_Slack_Create_Webhook.json",
@@ -3341,7 +3341,7 @@
   },
   {
     "filename": "0836_Wait_Code_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0837_GoogleSheets_Gmail_Create_Triggered.json",
@@ -3369,7 +3369,7 @@
   },
   {
     "filename": "0843_Gumroad_Update_Triggered.json",
-    "category": ""
+    "category": "E-commerce & Retail"
   },
   {
     "filename": "0844_Code_Ghost_Create_Triggered.json",
@@ -3377,11 +3377,11 @@
   },
   {
     "filename": "0845_Webhook_Filter_Export_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0846_Splitout_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0847_Linkedin_Splitout_Create_Triggered.json",
@@ -3389,11 +3389,11 @@
   },
   {
     "filename": "0848_Code_Filter_Update_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0849_Filter_Extractfromfile_Create_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0850_Mattermost_Pagerduty_Automate_Webhook.json",
@@ -3401,7 +3401,7 @@
   },
   {
     "filename": "0851_Code_Extractfromfile_Monitor_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0852_Gmail_GoogleSheets_Create_Triggered.json",
@@ -3413,7 +3413,7 @@
   },
   {
     "filename": "0854_Splitout_Filter_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0855_Mattermost_Pagerduty_Automate_Webhook.json",
@@ -3421,7 +3421,7 @@
   },
   {
     "filename": "0856_Code_Schedule_Update_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0857_Mattermost_Webhook_Automate_Webhook.json",
@@ -3429,11 +3429,11 @@
   },
   {
     "filename": "0858_Wait_Schedule_Update_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0859_Splitout_Code_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0860_Splitout_Limit_Send_Webhook.json",
@@ -3445,11 +3445,11 @@
   },
   {
     "filename": "0862_Wait_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0863_Code_Schedule_Import_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0864_Telegram_Splitout_Create_Triggered.json",
@@ -3461,15 +3461,15 @@
   },
   {
     "filename": "0866_Wait_Splitout_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0867_Wait_Splitout_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0868_Wait_Filter_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0869_Wait_Datetime_Send_Scheduled.json",
@@ -3505,7 +3505,7 @@
   },
   {
     "filename": "0877_Splitout_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0878_HTTP_Aggregate_Import_Webhook.json",
@@ -3517,7 +3517,7 @@
   },
   {
     "filename": "0880_Limit_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0881_Googletasks_HTTP_Update_Webhook.json",
@@ -3529,7 +3529,7 @@
   },
   {
     "filename": "0883_Splitout_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0884_Telegram_Filter_Export_Triggered.json",
@@ -3541,11 +3541,11 @@
   },
   {
     "filename": "0886_Manual_Stickynote_Import_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0887_Manual_Stickynote_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0888_Wait_Code_Send_Webhook.json",
@@ -3561,11 +3561,11 @@
   },
   {
     "filename": "0891_Code_Manual_Create_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0892_Webhook_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0893_Stickynote_Emailreadimap_Create.json",
@@ -3577,11 +3577,11 @@
   },
   {
     "filename": "0895_Splitout_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0896_Facebookleadads_Stickynote_Automate_Triggered.json",
-    "category": ""
+    "category": "Social Media Management"
   },
   {
     "filename": "0897_Limit_Code_Send_Scheduled.json",
@@ -3589,7 +3589,7 @@
   },
   {
     "filename": "0898_Code_Schedule_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0899_Splitout_GoogleCalendar_Update_Webhook.json",
@@ -3597,7 +3597,7 @@
   },
   {
     "filename": "0900_Respondtowebhook_Stickynote_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0901_HTTP_GoogleSheets_Automate_Webhook.json",
@@ -3605,7 +3605,7 @@
   },
   {
     "filename": "0902_Splitout_Code_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0903_Wait_Redis_Automate_Triggered.json",
@@ -3613,11 +3613,11 @@
   },
   {
     "filename": "0904_Wait_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0905_Wait_Schedule_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0906_Manual_GoogleSheets_Update_Triggered.json",
@@ -3625,7 +3625,7 @@
   },
   {
     "filename": "0907_Schedule_Removeduplicates_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0908_Manual_Stickynote_Automate_Triggered.json",
@@ -3633,7 +3633,7 @@
   },
   {
     "filename": "0909_Manual_Stickynote_Process_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0910_Bitly_Datetime_Update_Webhook.json",
@@ -3641,23 +3641,23 @@
   },
   {
     "filename": "0911_Schedule_Removeduplicates_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0912_Schedule_Removeduplicates_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0913_Splitout_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0914_Webhook_Respondtowebhook_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0915_Splitout_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0916_Telegram_Gmail_Create_Triggered.json",
@@ -3665,7 +3665,7 @@
   },
   {
     "filename": "0917_Filter_Whatsapp_Create_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0918_Code_Noop_Send_Triggered.json",
@@ -3673,7 +3673,7 @@
   },
   {
     "filename": "0919_Splitout_Extractfromfile_Create_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0920_HubSpot_Splitout_Create_Webhook.json",
@@ -3685,7 +3685,7 @@
   },
   {
     "filename": "0922_Code_Webhook_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0923_Splitout_Code_Send_Scheduled.json",
@@ -3693,15 +3693,15 @@
   },
   {
     "filename": "0924_Code_Respondtowebhook_Process_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0925_Stopanderror_Wait_Automate_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0926_Code_Webhook_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0927_GoogleSheets_Slack_Send_Triggered.json",
@@ -3713,7 +3713,7 @@
   },
   {
     "filename": "0929_Noop_Extractfromfile_Automation.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0930_Manual_Spreadsheetfile_Export_Triggered.json",
@@ -3725,11 +3725,11 @@
   },
   {
     "filename": "0932_Limit_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0933_Manual_Stickynote_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "0934_HTTP_Code_Automate_Webhook.json",
@@ -3789,7 +3789,7 @@
   },
   {
     "filename": "0948_Filter_Schedule_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0949_Manual_Twilio_Automate_Triggered.json",
@@ -3829,7 +3829,7 @@
   },
   {
     "filename": "0958_Splitout_Webhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0959_Manual_Signl4_Automate_Triggered.json",
@@ -3881,7 +3881,7 @@
   },
   {
     "filename": "0971_Limit_Splitout_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0972_Cortex_Emailreadimap_Send.json",
@@ -3905,7 +3905,7 @@
   },
   {
     "filename": "0977_Odoo_Code_Import_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0978_Stickynote_GoogleDrive_Automate_Triggered.json",
@@ -3913,11 +3913,11 @@
   },
   {
     "filename": "0979_Webhook_Filter_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0980_Code_Webhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "0981_Manual_Awssns_Automate_Triggered.json",
@@ -3945,11 +3945,11 @@
   },
   {
     "filename": "0987_Manual_Facebookgraphapi_Automation_Triggered.json",
-    "category": ""
+    "category": "Social Media Management"
   },
   {
     "filename": "0988_Manual_Writebinaryfile_Automate_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "0989_Mailchimp_Automate_Triggered.json",
@@ -4037,7 +4037,7 @@
   },
   {
     "filename": "1010_Jotform_Automate_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1011_Manual_Xero_Automate_Triggered.json",
@@ -4149,7 +4149,7 @@
   },
   {
     "filename": "1038_Manual_Crypto_Automate_Triggered.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1039_Manual_Datetime_Automate_Triggered.json",
@@ -4161,11 +4161,11 @@
   },
   {
     "filename": "1041_Manual_Readbinaryfile_Automate_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1042_Manual_Readbinaryfiles_Automate_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1043_HTTP_Telegram_Send_Webhook.json",
@@ -4193,7 +4193,7 @@
   },
   {
     "filename": "1049_Manual_Readbinaryfile_Automate_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1050_Emailreadimap_Send.json",
@@ -4229,15 +4229,15 @@
   },
   {
     "filename": "1058_Splitout_Code_Import_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1059_Splitout_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1060_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1061_Stopanderror_Telegram_Automation_Triggered.json",
@@ -4273,7 +4273,7 @@
   },
   {
     "filename": "1069_Figma_Stickynote_Update_Triggered.json",
-    "category": ""
+    "category": "Creative Design Automation"
   },
   {
     "filename": "1070_Telegram_Wordpress_Create_Webhook.json",
@@ -4301,7 +4301,7 @@
   },
   {
     "filename": "1076_Manual_Cron_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1077_Mattermost_Webhook_Automate_Webhook.json",
@@ -4353,11 +4353,11 @@
   },
   {
     "filename": "1089_Manual_Writebinaryfile_Automation_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1090_Manual_Code_Automate_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1091_Noop_Trello_Import_Triggered.json",
@@ -4385,7 +4385,7 @@
   },
   {
     "filename": "1097_Manual_Noop_Automate_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1098_Manual_Import_Triggered.json",
@@ -4405,7 +4405,7 @@
   },
   {
     "filename": "1102_Manual_Openai_Automation_Triggered.json",
-    "category": ""
+    "category": "AI Agent Development"
   },
   {
     "filename": "1103_Googletaskstool_Telegram_Automation_Webhook.json",
@@ -4417,7 +4417,7 @@
   },
   {
     "filename": "1105_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1106_GoogleSheets_Cron_Automate_Scheduled.json",
@@ -4433,7 +4433,7 @@
   },
   {
     "filename": "1109_Code_Schedule_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1110_HTTP_Mqtt_Monitor_Webhook.json",
@@ -4525,7 +4525,7 @@
   },
   {
     "filename": "1132_Webhook_Extractfromfile_Process_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1133_Googlesheetstool_Automation_Triggered.json",
@@ -4533,11 +4533,11 @@
   },
   {
     "filename": "1134_Googledocs_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1135_Wait_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1136_Manual_HubSpot_Automation_Triggered.json",
@@ -4569,7 +4569,7 @@
   },
   {
     "filename": "1143_Splitout_Filter_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1144_Postgres_Code_Automation_Triggered.json",
@@ -4577,11 +4577,11 @@
   },
   {
     "filename": "1145_Wait_Splitout_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1146_Splitout_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1147_Splitout_GitHub_Automation_Webhook.json",
@@ -4597,7 +4597,7 @@
   },
   {
     "filename": "1150_Noop_Executecommand_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1151_Woocommerce_Slack_Create_Triggered.json",
@@ -4653,7 +4653,7 @@
   },
   {
     "filename": "1164_Stopanderror_Code_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1165_Twitter_Telegram_Create_Triggered.json",
@@ -4673,7 +4673,7 @@
   },
   {
     "filename": "1169_Splitout_Code_Import_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1170_Manual_Jira_Create_Triggered.json",
@@ -4693,7 +4693,7 @@
   },
   {
     "filename": "1174_Manual_Readbinaryfile_Automate_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1175_Manual_Trello_Create_Triggered.json",
@@ -4729,7 +4729,7 @@
   },
   {
     "filename": "1183_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1184_Debughelper_HTTP_Create_Webhook.json",
@@ -4757,7 +4757,7 @@
   },
   {
     "filename": "1190_Executecommand_Readbinaryfile_Automate_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1191_Slack_Typeform_Automate_Triggered.json",
@@ -4781,7 +4781,7 @@
   },
   {
     "filename": "1196_Manual_Securityscorecard_Automate_Triggered.json",
-    "category": ""
+    "category": "Technical Infrastructure & DevOps"
   },
   {
     "filename": "1197_Manual_Reddit_Automate_Triggered.json",
@@ -4861,7 +4861,7 @@
   },
   {
     "filename": "1216_Manual_Schedule_Automate_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1217_Posthog_Webhook_Automate_Webhook.json",
@@ -4949,7 +4949,7 @@
   },
   {
     "filename": "1238_Manual_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1239_Googlecontacts_Schedule_Send_Scheduled.json",
@@ -4969,7 +4969,7 @@
   },
   {
     "filename": "1243_Splitout_Limit_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1244_Telegram_GoogleSheets_Automate_Triggered.json",
@@ -5005,31 +5005,31 @@
   },
   {
     "filename": "1252_Webhook_Respondtowebhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1253_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1254_Extractfromfile_Form_Automate_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1255_Webhook_Respondtowebhook_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1256_Openai_Form_Automation_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1257_Code_Webhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1258_Splitout_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1259_Code_Strava_Automation_Triggered.json",
@@ -5037,7 +5037,7 @@
   },
   {
     "filename": "1260_Splitout_Manual_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1261_Airtabletool_Stickynote_Automation_Triggered.json",
@@ -5045,11 +5045,11 @@
   },
   {
     "filename": "1262_Limit_Webhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1263_Webhook_Respondtowebhook_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1264_Code_HTTP_Automation_Webhook.json",
@@ -5061,7 +5061,7 @@
   },
   {
     "filename": "1266_Respondtowebhook_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1267_HTTP_Markdown_Automation_Webhook.json",
@@ -5077,7 +5077,7 @@
   },
   {
     "filename": "1270_Schedule_Manual_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1271_Automate.json",
@@ -5093,7 +5093,7 @@
   },
   {
     "filename": "1274_Webhook_Code_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1275_Schedule_Telegram_Automation_Scheduled.json",
@@ -5109,7 +5109,7 @@
   },
   {
     "filename": "1278_Code_Schedule_Monitor_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1279_Googledocs_Manual_Automate_Triggered.json",
@@ -5121,15 +5121,15 @@
   },
   {
     "filename": "1281_Code_Schedule_Monitor_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1282_Wait_Code_Import_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1283_Splitout_Webhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1284_Emailreadimap_Markdown_Send.json",
@@ -5141,7 +5141,7 @@
   },
   {
     "filename": "1286_Code_Manual_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1287_Googledocs_Googledrivetool_Monitor_Triggered.json",
@@ -5153,7 +5153,7 @@
   },
   {
     "filename": "1289_Limit_Webhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1290_Automation.json",
@@ -5169,15 +5169,15 @@
   },
   {
     "filename": "1293_Wait_Splitout_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1294_Compression_Manual_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1295_Stopanderror_Webhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1296_Datetime_Splitout_Process.json",
@@ -5193,7 +5193,7 @@
   },
   {
     "filename": "1299_Code_Webhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1300_Telegram_Stickynote_Create_Webhook.json",
@@ -5201,7 +5201,7 @@
   },
   {
     "filename": "1301_Code_Extractfromfile_Automation_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1302_Trello_Limit_Automate_Scheduled.json",
@@ -5221,7 +5221,7 @@
   },
   {
     "filename": "1306_Splitout_Schedule_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1307_Code_Converttofile_Send_Webhook.json",
@@ -5241,11 +5241,11 @@
   },
   {
     "filename": "1311_Respondtowebhook_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1312_Wait_Schedule_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1313_Code_HTTP_Automation_Webhook.json",
@@ -5253,7 +5253,7 @@
   },
   {
     "filename": "1314_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1315_Telegram_Gmailtool_Automation_Triggered.json",
@@ -5261,11 +5261,11 @@
   },
   {
     "filename": "1316_Form_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1317_Code_Schedule_Export_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1318_Slack_Stickynote_Automation_Triggered.json",
@@ -5277,7 +5277,7 @@
   },
   {
     "filename": "1320_Code_Schedule_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1321_Filter_Manual_Send_Triggered.json",
@@ -5289,7 +5289,7 @@
   },
   {
     "filename": "1323_Splitout_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1324_Aggregate_Gmail_Send_Triggered.json",
@@ -5297,7 +5297,7 @@
   },
   {
     "filename": "1325_Splitout_Limit_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1326_Automate.json",
@@ -5309,7 +5309,7 @@
   },
   {
     "filename": "1328_Jiratool_Schedule_Automate_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1329_Splitout_Editimage_Automate_Triggered.json",
@@ -5321,7 +5321,7 @@
   },
   {
     "filename": "1331_Code_Schedule_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1332_Splitout_Zendesk_Send_Triggered.json",
@@ -5337,7 +5337,7 @@
   },
   {
     "filename": "1335_Googledocs_Webhook_Process_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1336_Strapi_Webhook_Automate_Webhook.json",
@@ -5345,7 +5345,7 @@
   },
   {
     "filename": "1337_Code_Schedule_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1338_Telegram_Stickynote_Automate_Triggered.json",
@@ -5373,7 +5373,7 @@
   },
   {
     "filename": "1344_Splitout_Filter_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1345_Schedule_Discord_Automation_Scheduled.json",
@@ -5389,7 +5389,7 @@
   },
   {
     "filename": "1348_Form_Automation_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1349_HTTP_Slack_Automation_Webhook.json",
@@ -5401,11 +5401,11 @@
   },
   {
     "filename": "1351_Manual_Splitout_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1352_Splitout_Filter_Automate_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1353_Stickynote_Gmail_Send_Triggered.json",
@@ -5417,23 +5417,23 @@
   },
   {
     "filename": "1355_Splitout_Webhook_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1356_Code_Webhook_Import_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1357_Localfile_Wait_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1358_Localfile_Manual_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1359_Wait_Splitout_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1360_Manual_Stickynote_Create_Triggered.json",
@@ -5445,7 +5445,7 @@
   },
   {
     "filename": "1362_Wait_Webhook_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1363_Splitout_GitHub_Create_Webhook.json",
@@ -5453,15 +5453,15 @@
   },
   {
     "filename": "1364_Extractfromfile_Manual_Create_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1365_Extractfromfile_Manual_Create_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1366_Wait_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1367_HTTP_Schedule_Automate_Webhook.json",
@@ -5489,11 +5489,11 @@
   },
   {
     "filename": "1373_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1374_Aggregate_Stickynote_Create_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1375_Telegram_Automate_Triggered.json",
@@ -5509,7 +5509,7 @@
   },
   {
     "filename": "1378_Code_Filter_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1379_Stickynote_Automation_Triggered.json",
@@ -5521,7 +5521,7 @@
   },
   {
     "filename": "1381_Splitout_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1382_Lemlist_Slack_Automate_Webhook.json",
@@ -5537,15 +5537,15 @@
   },
   {
     "filename": "1385_Webhook_Respondtowebhook_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1386_Limit_Code_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1387_Respondtowebhook_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1388_Splitout_Redis_Automation_Webhook.json",
@@ -5553,15 +5553,15 @@
   },
   {
     "filename": "1389_Wait_Limit_Import_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1390_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1391_Code_Respondtowebhook_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1392_Telegram_Googleanalytics_Automation_Scheduled.json",
@@ -5573,11 +5573,11 @@
   },
   {
     "filename": "1394_Manual_Humanticai_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1395_Wait_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1396_Slack_Stickynote_Automate_Webhook.json",
@@ -5589,7 +5589,7 @@
   },
   {
     "filename": "1398_Splitout_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1399_Schedule_Slack_Automation_Scheduled.json",
@@ -5597,15 +5597,15 @@
   },
   {
     "filename": "1400_Wait_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1401_Code_Webhook_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1402_Code_Manual_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1403_Splitout_Datetime_Send_Webhook.json",
@@ -5617,7 +5617,7 @@
   },
   {
     "filename": "1405_Wait_Splitout_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1406_Schedule_Slack_Automation_Scheduled.json",
@@ -5625,11 +5625,11 @@
   },
   {
     "filename": "1407_Splitout_Schedule_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1408_Splitout_Code_Monitor_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1409_Send.json",
@@ -5645,7 +5645,7 @@
   },
   {
     "filename": "1412_Splitout_Code_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1413_Aggregate_Telegram_Automation_Triggered.json",
@@ -5653,23 +5653,23 @@
   },
   {
     "filename": "1414_Filter_Summarize_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1415_Webhook_Respondtowebhook_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1416_Webhook_Respondtowebhook_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1417_Webhook_Respondtowebhook_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1418_Schedule_Nocodb_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1419_HTTP_Schedule_Automation_Scheduled.json",
@@ -5677,7 +5677,7 @@
   },
   {
     "filename": "1420_Form_Extractfromfile_Automate_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1421_Postgres_Googlecloudnaturallanguage_Automation_Scheduled.json",
@@ -5685,7 +5685,7 @@
   },
   {
     "filename": "1422_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1423_Code_Editimage_Automation_Webhook.json",
@@ -5697,11 +5697,11 @@
   },
   {
     "filename": "1425_Splitout_Elasticsearch_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1426_Code_Schedule_Export_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1427_Emailreadimap_Manual_Send_Webhook.json",
@@ -5725,11 +5725,11 @@
   },
   {
     "filename": "1432_Webhook_Respondtowebhook_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1433_Webhook_Respondtowebhook_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1434_Strapi_Splitout_Automation_Webhook.json",
@@ -5745,11 +5745,11 @@
   },
   {
     "filename": "1437_Splitout_Code_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1438_Extractfromfile_Manual_Process_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1439_Telegram_Code_Create_Webhook.json",
@@ -5761,27 +5761,27 @@
   },
   {
     "filename": "1441_Form_Automation_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1442_Noop_Stickynote_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1443_Splitout_Extractfromfile_Automation_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1444_Extractfromfile_Converttofile_Automation_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1445_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1446_Code_Schedule_Automate_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1447_HTTP_Schedule_Automation_Webhook.json",
@@ -5793,7 +5793,7 @@
   },
   {
     "filename": "1449_Manual_Webhook_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1450_Telegram_Automation_Webhook.json",
@@ -5801,7 +5801,7 @@
   },
   {
     "filename": "1451_Splitout_Schedule_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1452_Telegram_Stickynote_Automate_Triggered.json",
@@ -5809,15 +5809,15 @@
   },
   {
     "filename": "1453_Stopanderror_Code_Import_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1454_Splitout_Schedule_Import_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1455_Respondtowebhook_Form_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1456_Wait_HTTP_Automation_Webhook.json",
@@ -5825,7 +5825,7 @@
   },
   {
     "filename": "1457_Manual_Stickynote_Process_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1458_HTTP_Stickynote_Import_Webhook.json",
@@ -5833,15 +5833,15 @@
   },
   {
     "filename": "1459_Splitout_Converttofile_Create_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1460_Code_Schedule_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1461_Code_Manual_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1462_HTTP_Executeworkflow_Automation_Webhook.json",
@@ -5849,7 +5849,7 @@
   },
   {
     "filename": "1463_Splitout_Code_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1464_HTTP_Stickynote_Automation_Webhook.json",
@@ -5857,23 +5857,23 @@
   },
   {
     "filename": "1465_Wait_Splitout_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1466_Respondtowebhook_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1467_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1468_Splitout_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1469_Wait_Splitout_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1470_Telegram_Code_Create_Webhook.json",
@@ -5881,11 +5881,11 @@
   },
   {
     "filename": "1471_Splitout_Aggregate_Create_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1472_Extractfromfile_Converttofile_Create_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1473_HTTP_Respondtowebhook_Create_Webhook.json",
@@ -5893,7 +5893,7 @@
   },
   {
     "filename": "1474_Respondtowebhook_Stickynote_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1475_Manual_Stickynote_Automation_Triggered.json",
@@ -5901,7 +5901,7 @@
   },
   {
     "filename": "1476_Respondtowebhook_Stickynote_Import_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1477_Webhook_Slack_Update_Webhook.json",
@@ -5917,7 +5917,7 @@
   },
   {
     "filename": "1480_Googleanalytics_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1481_HTTP_Form_Send_Webhook.json",
@@ -5929,11 +5929,11 @@
   },
   {
     "filename": "1483_Limit_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1484_Wait_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1485_Telegram_Stickynote_Automate_Triggered.json",
@@ -5941,7 +5941,7 @@
   },
   {
     "filename": "1486_Noop_Stickynote_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1487_Telegram_Extractfromfile_Automate_Webhook.json",
@@ -5949,11 +5949,11 @@
   },
   {
     "filename": "1488_Extractfromfile_Form_Automation_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1489_Splitout_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1490_Telegram_Splitout_Create_Webhook.json",
@@ -5969,15 +5969,15 @@
   },
   {
     "filename": "1493_Extractfromfile_Form_Automation_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1494_Microsofttodo_Webhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1495_Splitout_Limit_Import_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1496_Telegram_Webhook_Automation_Webhook.json",
@@ -5989,19 +5989,19 @@
   },
   {
     "filename": "1498_Stopanderror_Limit_Sync_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1499_Splitout_Filter_Monitor_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1500_Code_Webhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1501_Extractfromfile_Form_Automate_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1502_Webhook_Slack_Automate_Webhook.json",
@@ -6013,7 +6013,7 @@
   },
   {
     "filename": "1504_Stopanderror_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1505_Manual_Stickynote_Send_Webhook.json",
@@ -6029,11 +6029,11 @@
   },
   {
     "filename": "1508_Wait_Manual_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1509_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1510_Datetime_Code_Automation_Webhook.json",
@@ -6041,15 +6041,15 @@
   },
   {
     "filename": "1511_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1512_Wait_Splitout_Process_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1513_Wait_Splitout_Process_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1514_Code_HTTP_Create_Webhook.json",
@@ -6065,11 +6065,11 @@
   },
   {
     "filename": "1517_Manual_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1518_Code_Manual_Process_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1519_HTTP_Stickynote_Automation_Webhook.json",
@@ -6081,7 +6081,7 @@
   },
   {
     "filename": "1521_Whatsapp_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1522_Telegram_Schedule_Send_Webhook.json",
@@ -6093,7 +6093,7 @@
   },
   {
     "filename": "1524_Schedule_Manual_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1525_Webhook_Telegram_Create_Webhook.json",
@@ -6105,7 +6105,7 @@
   },
   {
     "filename": "1527_Limit_Schedule_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1528_Manual_Gmail_Send_Triggered.json",
@@ -6113,7 +6113,7 @@
   },
   {
     "filename": "1529_Googleanalytics_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1530_HTTP_Stickynote_Automation_Webhook.json",
@@ -6121,11 +6121,11 @@
   },
   {
     "filename": "1531_Splitout_Comparedatasets_Sync_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1532_Manual_Wait_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1533_Telegram_Splitout_Automation_Webhook.json",
@@ -6141,7 +6141,7 @@
   },
   {
     "filename": "1536_Rssfeedread_Extractfromfile_Automation_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1537_Form_GoogleSheets_Automation_Triggered.json",
@@ -6157,11 +6157,11 @@
   },
   {
     "filename": "1540_Markdown_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1541_Webhook_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1542_Splitout_HTTP_Create_Webhook.json",
@@ -6169,7 +6169,7 @@
   },
   {
     "filename": "1543_Manual_Openai_Automation_Triggered.json",
-    "category": ""
+    "category": "AI Agent Development"
   },
   {
     "filename": "1544_Aggregate_Schedule_Send_Scheduled.json",
@@ -6177,11 +6177,11 @@
   },
   {
     "filename": "1545_Manual_Code_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1546_Manual_Splitout_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1547_Manual_HTTP_Automation_Webhook.json",
@@ -6189,7 +6189,7 @@
   },
   {
     "filename": "1548_Splitout_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1549_Wait_Dropbox_Automation_Webhook.json",
@@ -6221,7 +6221,7 @@
   },
   {
     "filename": "1556_Splitout_Code_Monitor_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1557_Stickynote_Automation_Triggered.json",
@@ -6233,27 +6233,27 @@
   },
   {
     "filename": "1559_Splitout_Code_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1560_Splitout_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1561_Webhook_Respondtowebhook_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1562_Filter_Manual_Import_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1563_Wait_Schedule_Monitor_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1564_Splitout_Manual_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1565_Gmail_Stickynote_Create_Triggered.json",
@@ -6261,23 +6261,23 @@
   },
   {
     "filename": "1566_Wait_Splitout_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1567_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1568_Stickynote_Notion_Automation_Triggered.json",
-    "category": ""
+    "category": "Project Management"
   },
   {
     "filename": "1569_Stickynote_Notion_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1570_Filter_Summarize_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1571_Markdown_Stickynote_Send.json",
@@ -6285,7 +6285,7 @@
   },
   {
     "filename": "1572_Wait_Schedule_Automate_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1573_GoogleCalendar_Slack_Create_Webhook.json",
@@ -6301,19 +6301,19 @@
   },
   {
     "filename": "1576_Aggregate_Stickynote_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1577_Respondtowebhook_Stickynote_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1578_Webhook_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1579_Wait_Manual_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1580_HTTP_Stickynote_Automate_Webhook.json",
@@ -6329,7 +6329,7 @@
   },
   {
     "filename": "1583_Readbinaryfiles_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1584_Manual_HTTP_Automation_Webhook.json",
@@ -6337,15 +6337,15 @@
   },
   {
     "filename": "1585_Splitout_Code_Update_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1586_Code_Respondtowebhook_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1587_Executecommand_Localfile_Automation_Triggered.json",
-    "category": ""
+    "category": "Cloud Storage & File Management"
   },
   {
     "filename": "1588_Emailreadimap_Markdown_Send.json",
@@ -6353,15 +6353,15 @@
   },
   {
     "filename": "1589_Wait_Webhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1590_Extractfromfile_Converttofile_Create_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1591_Splitout_Code_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1592_Slack_Stickynote_Automate_Webhook.json",
@@ -6373,7 +6373,7 @@
   },
   {
     "filename": "1594_Code_Schedule_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1595_Telegram_Schedule_Update_Webhook.json",
@@ -6393,15 +6393,15 @@
   },
   {
     "filename": "1599_Woocommercetool_Manual_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1600_Wait_Code_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1601_Webhook_Respondtowebhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1602_Schedule_Youtube_Create_Scheduled.json",
@@ -6409,11 +6409,11 @@
   },
   {
     "filename": "1603_Splitout_Manual_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1604_Manual_Openai_Automation_Triggered.json",
-    "category": ""
+    "category": "AI Agent Development"
   },
   {
     "filename": "1605_Code_Editimage_Automation_Webhook.json",
@@ -6425,15 +6425,15 @@
   },
   {
     "filename": "1607_Schedule_Notion_Sync_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1608_Respondtowebhook_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1609_Wait_Schedule_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1610_Telegram_Googledocs_Automate_Triggered.json",
@@ -6441,11 +6441,11 @@
   },
   {
     "filename": "1611_Form_Stickynote_Automate_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1612_Webhook_Code_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1613_Gmailtool_Stickynote_Automation_Triggered.json",
@@ -6481,7 +6481,7 @@
   },
   {
     "filename": "1621_Manual_Stickynote_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1622_Manual_N8N_Automation_Triggered.json",
@@ -6489,7 +6489,7 @@
   },
   {
     "filename": "1623_Stopanderror_Code_Import_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1624_Stickynote_Executeworkflow_Automation_Webhook.json",
@@ -6497,7 +6497,7 @@
   },
   {
     "filename": "1625_Splitout_Schedule_Monitor_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1626_Stickynote_GoogleDrive_Automate_Triggered.json",
@@ -6505,19 +6505,19 @@
   },
   {
     "filename": "1627_Splitout_Code_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1628_Emailsend_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1629_Schedule_Stickynote_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1630_Code_Form_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1631_HTTP_Telegram_Automation_Webhook.json",
@@ -6529,7 +6529,7 @@
   },
   {
     "filename": "1633_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1634_Automation.json",
@@ -6537,15 +6537,15 @@
   },
   {
     "filename": "1635_Localfile_Splitout_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1636_Manual_Openai_Automation_Triggered.json",
-    "category": ""
+    "category": "AI Agent Development"
   },
   {
     "filename": "1637_Splitout_Code_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1638_Wait_Splitout_Send_Webhook.json",
@@ -6553,7 +6553,7 @@
   },
   {
     "filename": "1639_Wait_Webhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1640_HTTP_Stickynote_Automation_Webhook.json",
@@ -6561,11 +6561,11 @@
   },
   {
     "filename": "1641_Extractfromfile_Manual_Automation_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1642_Splitout_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1643_Slack_Manual_Automate_Webhook.json",
@@ -6573,19 +6573,19 @@
   },
   {
     "filename": "1644_Code_Schedule_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1645_Limit_Splitout_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1646_Code_Schedule_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1647_Splitout_Limit_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1648_Splitout_Converttofile_Send_Webhook.json",
@@ -6593,11 +6593,11 @@
   },
   {
     "filename": "1649_Form_Extractfromfile_Automate_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1650_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1651_HTTP_Schedule_Automation_Webhook.json",
@@ -6605,7 +6605,7 @@
   },
   {
     "filename": "1652_Googleanalytics_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1653_Code_Webhook_Send_Webhook.json",
@@ -6625,15 +6625,15 @@
   },
   {
     "filename": "1657_Splitout_Schedule_Monitor_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1658_Splitout_Schedule_Monitor_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1659_Rssfeedread_Extractfromfile_Automation_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1660_Splitout_HTTP_Create_Webhook.json",
@@ -6645,7 +6645,7 @@
   },
   {
     "filename": "1662_Respondtowebhook_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1663_Slack_Stickynote_Automate_Webhook.json",
@@ -6661,11 +6661,11 @@
   },
   {
     "filename": "1666_Code_Manual_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1667_Filter_Summarize_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1668_GoogleCalendar_Filter_Automation_Triggered.json",
@@ -6673,15 +6673,15 @@
   },
   {
     "filename": "1669_Manual_Openai_Automation_Triggered.json",
-    "category": ""
+    "category": "AI Agent Development"
   },
   {
     "filename": "1670_Code_Schedule_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1671_Code_Schedule_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1672_HTTP_Form_Automation_Webhook.json",
@@ -6701,7 +6701,7 @@
   },
   {
     "filename": "1676_Manual_Wait_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1677_Supabase_Stickynote_Automation_Triggered.json",
@@ -6709,7 +6709,7 @@
   },
   {
     "filename": "1678_Splitout_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1679_Telegram_GoogleCalendar_Automation_Scheduled.json",
@@ -6725,11 +6725,11 @@
   },
   {
     "filename": "1682_Stickynote_Notion_Automation_Triggered.json",
-    "category": ""
+    "category": "Project Management"
   },
   {
     "filename": "1683_Compression_Manual_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1684_HTTP_Telegram_Automation_Webhook.json",
@@ -6765,11 +6765,11 @@
   },
   {
     "filename": "1692_Respondtowebhook_Stickynote_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1693_Respondtowebhook_Stickynote_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1694_Webhook_HTTP_Automation_Webhook.json",
@@ -6777,11 +6777,11 @@
   },
   {
     "filename": "1695_Limit_Code_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1696_Wait_Code_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1697_Schedule_HTTP_Monitor_Scheduled.json",
@@ -6789,7 +6789,7 @@
   },
   {
     "filename": "1698_Stickynote_Notion_Automation_Triggered.json",
-    "category": ""
+    "category": "Project Management"
   },
   {
     "filename": "1699_Code_Editimage_Automation_Webhook.json",
@@ -6805,19 +6805,19 @@
   },
   {
     "filename": "1702_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1703_Stickynote_Webhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1704_Manual_Schedule_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1705_Wait_Manual_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1706_Summarize_Stickynote_Automation_Triggered.json",
@@ -6825,7 +6825,7 @@
   },
   {
     "filename": "1707_Manual_Stickynote_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1708_Telegram_Stickynote_Create_Webhook.json",
@@ -6837,11 +6837,11 @@
   },
   {
     "filename": "1710_Code_Schedule_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1711_Limit_Code_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1712_Telegram_Automation_Webhook.json",
@@ -6849,11 +6849,11 @@
   },
   {
     "filename": "1713_Code_Webhook_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1714_Manual_Start_Update_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1715_Error_Telegram_Automation_Webhook.json",
@@ -6861,15 +6861,15 @@
   },
   {
     "filename": "1716_Limit_Schedule_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1717_Wait_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1718_Schedule_Filter_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1719_Stickynote_Automation_Triggered.json",
@@ -6881,11 +6881,11 @@
   },
   {
     "filename": "1721_Splitout_Manual_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1722_Webhook_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1723_Airtabletool_Stickynote_Automation_Triggered.json",
@@ -6893,7 +6893,7 @@
   },
   {
     "filename": "1724_Code_Schedule_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1725_HTTP_Code_Process_Webhook.json",
@@ -6901,15 +6901,15 @@
   },
   {
     "filename": "1726_Code_Webhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1727_Wait_Splitout_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1728_Code_Filter_Import_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1729_HTTP_Executeworkflow_Automation_Webhook.json",
@@ -6921,7 +6921,7 @@
   },
   {
     "filename": "1731_Splitout_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1732_HTTP_Executeworkflow_Automation_Webhook.json",
@@ -6941,7 +6941,7 @@
   },
   {
     "filename": "1736_Wait_Schedule_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1737_HTTP_Stickynote_Automation_Webhook.json",
@@ -6949,7 +6949,7 @@
   },
   {
     "filename": "1738_Schedule_Comparedatasets_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1739_Manual_GoogleSheets_Create_Triggered.json",
@@ -6957,7 +6957,7 @@
   },
   {
     "filename": "1740_Webhook_Respondtowebhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1741_Telegram_Gumroad_Create_Webhook.json",
@@ -6965,11 +6965,11 @@
   },
   {
     "filename": "1742_Splitout_Nocodb_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1743_Wait_Code_Sync_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1744_Twittertool_Automation_Triggered.json",
@@ -6977,11 +6977,11 @@
   },
   {
     "filename": "1745_Wait_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1746_Wait_Code_Monitor_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1747_HTTP_Stickynote_Automate_Webhook.json",
@@ -6989,7 +6989,7 @@
   },
   {
     "filename": "1748_Splitout_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1749_Todoist_Schedule_Send_Scheduled.json",
@@ -6997,11 +6997,11 @@
   },
   {
     "filename": "1750_Schedule_Extractfromfile_Import_Scheduled.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1751_Filter_Schedule_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1752_Postgres_Wordpress_Automation_Webhook.json",
@@ -7009,7 +7009,7 @@
   },
   {
     "filename": "1753_Splitout_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1754_Executiondata_Slack_Automate_Webhook.json",
@@ -7025,7 +7025,7 @@
   },
   {
     "filename": "1757_Splitout_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1758_Code_HTTP_Automation_Webhook.json",
@@ -7033,7 +7033,7 @@
   },
   {
     "filename": "1759_Code_Filter_Monitor_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1760_Splitout_GitHub_Automate_Webhook.json",
@@ -7041,15 +7041,15 @@
   },
   {
     "filename": "1761_Code_Extractfromfile_Automate_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1762_Form_Aggregate_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1763_Wait_Schedule_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1764_Extractfromfile_HTTP_Automation_Webhook.json",
@@ -7057,7 +7057,7 @@
   },
   {
     "filename": "1765_Code_Filter_Process_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1766_Manual_GoogleSheets_Automation_Triggered.json",
@@ -7069,7 +7069,7 @@
   },
   {
     "filename": "1768_Stopanderror_Wait_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1769_Jira_Stickynote_Sync_Triggered.json",
@@ -7077,15 +7077,15 @@
   },
   {
     "filename": "1770_Webhook_Extractfromfile_Automation_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1771_Wait_Code_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1772_Filter_Rssfeedread_Monitor_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1773_HTTP_Stripe_Sync_Webhook.json",
@@ -7093,7 +7093,7 @@
   },
   {
     "filename": "1774_Splitout_Manual_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1775_Telegram_Code_Import_Triggered.json",
@@ -7117,7 +7117,7 @@
   },
   {
     "filename": "1780_Splitout_Schedule_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1781_Mondaycom_Splitout_Import_Triggered.json",
@@ -7133,7 +7133,7 @@
   },
   {
     "filename": "1784_Splitout_Filter_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1785_Stopanderror_Clickup_Automation_Webhook.json",
@@ -7145,7 +7145,7 @@
   },
   {
     "filename": "1787_Splitout_Code_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1788_Postgres_Code_Automation_Webhook.json",
@@ -7153,15 +7153,15 @@
   },
   {
     "filename": "1789_Code_Webhook_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1790_Splitout_Summarize_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1791_Filter_Summarize_Create_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1792_Googlecalendartool_Executeworkflow_Automation_Triggered.json",
@@ -7201,15 +7201,15 @@
   },
   {
     "filename": "1801_Wait_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1802_Code_Manual_Import_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1803_Respondtowebhook_Stickynote_Import_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1804_Stickynote_Automation_Triggered.json",
@@ -7217,7 +7217,7 @@
   },
   {
     "filename": "1805_Wait_Code_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1806_GoogleDrive_GoogleSheets_Import_Triggered.json",
@@ -7233,11 +7233,11 @@
   },
   {
     "filename": "1809_Code_Schedule_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1810_Limit_Splitout_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1811_HTTP_GoogleSheets_Automate_Webhook.json",
@@ -7253,11 +7253,11 @@
   },
   {
     "filename": "1814_Code_Extractfromfile_Automate_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1815_Code_Webhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1816_Stickynote_Executeworkflow_Automation_Webhook.json",
@@ -7269,7 +7269,7 @@
   },
   {
     "filename": "1818_Code_Converttofile_Automate_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1819_Code_Discord_Send_Triggered.json",
@@ -7277,27 +7277,27 @@
   },
   {
     "filename": "1820_Schedule_N8N_Automate_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1821_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1822_Baserow_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1823_Stopanderror_Wait_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1824_Splitout_Schedule_Import_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1825_Code_Webhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1826_Manual_Wordpress_Automation_Triggered.json",
@@ -7309,23 +7309,23 @@
   },
   {
     "filename": "1828_Manual_Totp_Automation_Triggered.json",
-    "category": ""
+    "category": "Technical Infrastructure & DevOps"
   },
   {
     "filename": "1829_Summarize_Respondtowebhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1830_Splitout_Filter_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1831_Splitout_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1832_Code_Webhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1833_GoogleSheets_Gmail_Create_Triggered.json",
@@ -7333,7 +7333,7 @@
   },
   {
     "filename": "1834_Splitout_Code_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1835_Manual_Slack_Automation_Triggered.json",
@@ -7341,7 +7341,7 @@
   },
   {
     "filename": "1836_Code_Googledocs_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1837_Code_Ghost_Automation_Triggered.json",
@@ -7349,15 +7349,15 @@
   },
   {
     "filename": "1838_Noop_Stickynote_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1839_Code_Manual_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1840_Splitout_Filter_Automate_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1841_Telegram_Manual_Automate_Triggered.json",
@@ -7365,7 +7365,7 @@
   },
   {
     "filename": "1842_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1843_Telegram_Code_Automate_Triggered.json",
@@ -7373,7 +7373,7 @@
   },
   {
     "filename": "1844_Code_Schedule_Export_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1845_Googleslides_Extractfromfile_Create_Triggered.json",
@@ -7385,7 +7385,7 @@
   },
   {
     "filename": "1847_Extractfromfile_Form_Automation_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1848_Postgrestool_Stickynote_Automation_Triggered.json",
@@ -7397,7 +7397,7 @@
   },
   {
     "filename": "1850_Code_Schedule_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1851_Manual_Comparedatasets_Automation_Triggered.json",
@@ -7413,11 +7413,11 @@
   },
   {
     "filename": "1854_Removeduplicates_Converttofile_Automation_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1855_Webhook_Respondtowebhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1856_Telegram_Stickynote_Automation_Webhook.json",
@@ -7425,7 +7425,7 @@
   },
   {
     "filename": "1857_Woocommercetool_Manual_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1858_Googledocs_Manual_Automate_Triggered.json",
@@ -7441,11 +7441,11 @@
   },
   {
     "filename": "1861_Code_Form_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1862_Code_Respondtowebhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1863_Manual_HTTP_Automation_Webhook.json",
@@ -7453,7 +7453,7 @@
   },
   {
     "filename": "1864_Code_Executecommand_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1865_Code_HTTP_Create_Webhook.json",
@@ -7465,7 +7465,7 @@
   },
   {
     "filename": "1867_Schedule_Filter_Sync_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1868_HTTP_Stickynote_Automate_Webhook.json",
@@ -7497,7 +7497,7 @@
   },
   {
     "filename": "1875_Code_Schedule_Automate_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1876_HTTP_Manual_Automation_Webhook.json",
@@ -7517,15 +7517,15 @@
   },
   {
     "filename": "1880_Splitout_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1881_Webhook_Code_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1882_Manual_Markdown_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1883_HTTP_Form_Import_Webhook.json",
@@ -7533,7 +7533,7 @@
   },
   {
     "filename": "1884_Manual_Stickynote_Import_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1885_HTTP_Extractfromfile_Automation_Webhook.json",
@@ -7541,19 +7541,19 @@
   },
   {
     "filename": "1886_Form_Markdown_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1887_Webhook_Respondtowebhook_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1888_Splitout_Schedule_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1889_Splitout_Comparedatasets_Sync_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1890_HTTP_Executeworkflow_Automation_Webhook.json",
@@ -7581,15 +7581,15 @@
   },
   {
     "filename": "1896_Stopanderror_Splitout_Export_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1897_Webhook_Filter_Sync_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1898_Splitout_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1899_Stickynote_Airtabletool_Create_Triggered.json",
@@ -7597,11 +7597,11 @@
   },
   {
     "filename": "1900_Limit_Code_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1901_Manual_Filter_Automate_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1902_Stickynote_Executeworkflow_Update_Webhook.json",
@@ -7609,7 +7609,7 @@
   },
   {
     "filename": "1903_Splitout_Googledocs_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1904_Telegram_Limit_Process_Webhook.json",
@@ -7621,11 +7621,11 @@
   },
   {
     "filename": "1906_Code_Extractfromfile_Automate_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1907_Stickynote_Converttofile_Automation_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1908_Form_Asana_Automate_Triggered.json",
@@ -7637,7 +7637,7 @@
   },
   {
     "filename": "1910_Code_Webhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1911_Automate.json",
@@ -7657,7 +7657,7 @@
   },
   {
     "filename": "1915_Splitout_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1916_Telegram_Stickynote_Automation_Triggered.json",
@@ -7665,7 +7665,7 @@
   },
   {
     "filename": "1917_Wait_Code_Create_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1918_Executeworkflow_Automation_Triggered.json",
@@ -7681,7 +7681,7 @@
   },
   {
     "filename": "1921_Code_Filter_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1922_Linkedin_Schedule_Automate_Webhook.json",
@@ -7693,7 +7693,7 @@
   },
   {
     "filename": "1924_Code_Webhook_Export_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1925_Microsoftoutlook_Microsoftoutlooktool_Automation_Triggered.json",
@@ -7713,11 +7713,11 @@
   },
   {
     "filename": "1929_Odoo_Schedule_Automate_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1930_Splitout_Code_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1931_Wait_HTTP_Automation_Webhook.json",
@@ -7733,11 +7733,11 @@
   },
   {
     "filename": "1934_Splitout_Schedule_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1935_Splitout_Extractfromfile_Automation_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1936_Emailreadimap_Manual_Send_Webhook.json",
@@ -7745,7 +7745,7 @@
   },
   {
     "filename": "1937_Splitout_Limit_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1938_Telegram_Schedule_Automation_Scheduled.json",
@@ -7781,7 +7781,7 @@
   },
   {
     "filename": "1946_Splitout_Webhook_Import_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1947_Stickynote_Supabasetool_Automation_Triggered.json",
@@ -7809,15 +7809,15 @@
   },
   {
     "filename": "1953_Respondtowebhook_Stickynote_Monitor_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1954_Wait_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1955_Wait_Splitout_Automation_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1956_Mailjet_Gmail_Create_Triggered.json",
@@ -7825,7 +7825,7 @@
   },
   {
     "filename": "1957_Form_Stickynote_Automation_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1958_Code_Slack_Send_Triggered.json",
@@ -7837,11 +7837,11 @@
   },
   {
     "filename": "1960_Manual_Stickynote_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1961_Manual_Readbinaryfile_Import_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1962_Emailreadimap_Manual_Send_Webhook.json",
@@ -7849,7 +7849,7 @@
   },
   {
     "filename": "1963_Stopanderror_Wait_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1964_HTTP_Aggregate_Automation_Webhook.json",
@@ -7857,27 +7857,27 @@
   },
   {
     "filename": "1965_Code_Schedule_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1966_Code_Webhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1967_Respondtowebhook_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1968_Form_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1969_Code_Stickynote_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1970_Splitout_Manual_Sync_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1971_Manual_HTTP_Automate_Webhook.json",
@@ -7885,7 +7885,7 @@
   },
   {
     "filename": "1972_Executiondata_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1973_HTTP_Manual_Import_Webhook.json",
@@ -7905,23 +7905,23 @@
   },
   {
     "filename": "1977_Wait_Splitout_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1978_Extractfromfile_Converttofile_Automation_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1979_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1980_Splitout_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1981_Extractfromfile_Form_Automate_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1982_Telegram_Splitout_Automation_Scheduled.json",
@@ -7929,11 +7929,11 @@
   },
   {
     "filename": "1983_Splitout_Converttofile_Automation_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "1984_Code_Executecommand_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1985_Converttofile_HTTP_Automation_Webhook.json",
@@ -7941,7 +7941,7 @@
   },
   {
     "filename": "1986_Stickynote_Jira_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1987_Stickynote_Airtable_Create_Triggered.json",
@@ -7957,7 +7957,7 @@
   },
   {
     "filename": "1990_Wait_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1991_Error_Code_Automation_Triggered.json",
@@ -7965,19 +7965,19 @@
   },
   {
     "filename": "1992_Wait_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1993_Splitout_Code_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1994_Code_Manual_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1995_Limit_Splitout_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "1996_HTTP_Manual_Automation_Webhook.json",
@@ -7985,7 +7985,7 @@
   },
   {
     "filename": "1997_Respondtowebhook_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "1998_Splitout_Postgres_Sync_Scheduled.json",
@@ -7997,15 +7997,15 @@
   },
   {
     "filename": "2000_Wait_Code_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "2001_Manual_Stickynote_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "2002_Manual_Code_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "2003_Datetime_Code_Automation_Webhook.json",
@@ -8021,35 +8021,35 @@
   },
   {
     "filename": "2006_Filter_Manual_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "2007_Webhook_Graphql_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "2008_Code_Webhook_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "2009_Stickynote_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "2010_Wait_Limit_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "2011_Code_Manual_Import_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "2012_Code_Schedule_Create_Scheduled.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "2013_Manual_Stickynote_Create_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "2014_Postgres_Webhook_Automation_Webhook.json",
@@ -8061,11 +8061,11 @@
   },
   {
     "filename": "2016_Splitout_Noop_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "2017_Manual_Stickynote_Import_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "2018_Telegram_Cal_Create_Webhook.json",
@@ -8077,7 +8077,7 @@
   },
   {
     "filename": "2020_Code_Noop_Create_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "2021_Manual_GoogleSheets_Automation_Triggered.json",
@@ -8085,7 +8085,7 @@
   },
   {
     "filename": "2022_Manual_Extractfromfile_Update_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "2023_Stickynote_Create_Triggered.json",
@@ -8097,11 +8097,11 @@
   },
   {
     "filename": "2025_Splitout_Code_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "2026_Code_Manual_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "2027_Stickynote_Executeworkflow_Automation_Webhook.json",
@@ -8113,11 +8113,11 @@
   },
   {
     "filename": "2029_Wait_Code_Automation_Triggered.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "2030_Whatsapp_Respondtowebhook_Automate_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "2031_Googletasks_Gmail_Create_Triggered.json",
@@ -8129,11 +8129,11 @@
   },
   {
     "filename": "2033_Code_Extractfromfile_Automate_Webhook.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "2034_Code_Webhook_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "2035_Manual_GoogleSheets_Automation_Webhook.json",
@@ -8141,7 +8141,7 @@
   },
   {
     "filename": "2036_Readbinaryfiles_Filter_Import_Triggered.json",
-    "category": ""
+    "category": "Data Processing & Analysis"
   },
   {
     "filename": "2037_Manual_N8N_Automation_Triggered.json",
@@ -8153,7 +8153,7 @@
   },
   {
     "filename": "2039_Stickynote_Webhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Web Scraping & Data Extraction"
   },
   {
     "filename": "2040_Telegram_Splitout_Automation_Webhook.json",
@@ -8161,11 +8161,11 @@
   },
   {
     "filename": "2041_Splitout_Manual_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "2042_Wait_Webhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "2043_HTTP_Stickynote_Automation_Webhook.json",
@@ -8181,7 +8181,7 @@
   },
   {
     "filename": "2046_Code_Webhook_Automation_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "2047_Automation.json",
@@ -8193,7 +8193,7 @@
   },
   {
     "filename": "2049_Limit_Splitout_Automate_Webhook.json",
-    "category": ""
+    "category": "Business Process Automation"
   },
   {
     "filename": "2050_Datetime_Code_Automation_Webhook.json",
