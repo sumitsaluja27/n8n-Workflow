@@ -4,7 +4,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyBrmHCdFoxQxynvuASuvml9qgWsliGwh7w",
+        "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=your api key",
         "sendBody": true,
         "contentType": "raw",
         "rawContentType": "application/json",
