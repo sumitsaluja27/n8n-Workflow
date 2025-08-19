@@ -1,0 +1,322 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyBrmHCdFoxQxynvuASuvml9qgWsliGwh7w",
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "{ \"contents\": [ { \"role\": \"user\", \"parts\": [ { \"text\": \"Single artisanal sandwax candle product shot in a clear straight‑sided glass jar with centered wick and white sand‑like wax. Minimal studio scene on a plain beige backdrop, soft top‑down key light, gentle reflections. Branded brown/white pouch with clear window and 'Upside Arrow' text only. Subtle props: small matchbox and 15 ml fragrance oil bottles (Lavender, Vanilla, Jasmine, Sandalwood, Rose). Camera: 50mm, f/8, front three‑quarter view. Photorealistic, 1:1, 1024x1024. Negative: people, faces, bodies, hands, skin, text overlays, logos, clothing, scenery, furniture.\" } ] } ] }",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        288,
+        -16
+      ],
+      "id": "03a0f1cb-1627-4778-8e9f-a56b74111658",
+      "name": "Gemini API for Prompts"
+    },
+    {
+      "parameters": {
+        "jsCode": "// This code node generates 2 empty items for the loop to iterate over.\nconst items = [];\nfor (let i = 0; i < 2; i++) {\n  items.push({}); // Push an empty object for each iteration\n}\nreturn items;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -176,
+        -16
+      ],
+      "id": "7fa6c245-1b3c-43f9-b64a-b0e93d2c1913",
+      "name": "Generate Iterations for Daily Images"
+    },
+    {
+      "parameters": {
+        "batchSize": 2,
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        48,
+        0
+      ],
+      "id": "5631ac9e-0989-495b-9587-ade11326224f",
+      "name": "Loop - 2 prompts"
+    },
+    {
+      "parameters": {
+        "operation": "createFromText",
+        "content": "={{$json.prompt}}",
+        "name": "=ImagePrompt-{{ $now.toFormat('dd-LLL-yyyy_HH-mm-ss') }}.txt",
+        "driveId": {
+          "__rl": true,
+          "value": "My Drive",
+          "mode": "list",
+          "cachedResultName": "My Drive",
+          "cachedResultUrl": "https://drive.google.com/drive/my-drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "value": "1_qUMDig7bsDKqCLKrKiC8L7DpWKQupkN",
+          "mode": "id"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        784,
+        -16
+      ],
+      "id": "75b202c9-6343-4ea5-b650-125a3e2d488d",
+      "name": "Combined Result - Drive",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "mjloX9tfscVfQJOb",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://us-central1-aiplatform.googleapis.com/v1/projects/gen-lang-client-0860894862/locations/us-central1/publishers/google/models/imagegeneration@006:predict",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "googleApi",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "JSON",
+        "body": "{   \"instances\": [     {       \"prompt\": \"{{ $json.prompt }}\"     }   ],   \"parameters\": {     \"sampleCount\": 1,     \"aspectRatio\": \"1:1\"   } }",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1040,
+        -16
+      ],
+      "id": "bd552aec-f320-42ab-8964-0595091f545b",
+      "name": "Vertex AI - Gemini API - Images",
+      "credentials": {
+        "googleApi": {
+          "id": "7mH5OEfzdoOWab4G",
+          "name": "Vertex AI Images"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "toBinary",
+        "sourceProperty": "predictions[0].bytesBase64Encoded",
+        "binaryPropertyName": "Image",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        1312,
+        -16
+      ],
+      "id": "ca81ddd1-a90e-4b8c-85a6-dc84824ebd2d",
+      "name": "Base64 → Binary (Image)"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "hoursInterval": 12
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -384,
+        -16
+      ],
+      "id": "3b1d97e4-8a76-4a96-920b-f0650904dd15",
+      "name": "Start – Schedule Trigger"
+    },
+    {
+      "parameters": {
+        "inputDataFieldName": "Image",
+        "name": "=UpsideArrow-{{ $today.toFormat('dd-LLL-yyyy_HH-mm-ss') }}.png",
+        "driveId": {
+          "__rl": true,
+          "value": "My Drive",
+          "mode": "list",
+          "cachedResultName": "My Drive",
+          "cachedResultUrl": "https://drive.google.com/drive/my-drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "value": "10T8gari5mQfZi672vnPiaOwGpRnP5Vou",
+          "mode": "id"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        1536,
+        -16
+      ],
+      "id": "891e80d7-b0c9-4e6f-aebd-3215f4f3717b",
+      "name": "Upload file to drive",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "mjloX9tfscVfQJOb",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "09283a2d-ba2c-4a00-8445-89b38158af69",
+              "name": "prompt",
+              "value": "={{$json.candidates.content.parts.text}}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        544,
+        -16
+      ],
+      "id": "a9ee41c8-9920-4f45-afbc-caeb21449b14",
+      "name": "Set Prompt"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Gemini API for Prompts": {
+      "main": [
+        [
+          {
+            "node": "Set Prompt",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Generate Iterations for Daily Images": {
+      "main": [
+        [
+          {
+            "node": "Loop - 2 prompts",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Loop - 2 prompts": {
+      "main": [
+        [
+          {
+            "node": "Gemini API for Prompts",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Loop - 2 prompts",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Combined Result - Drive": {
+      "main": [
+        [
+          {
+            "node": "Vertex AI - Gemini API - Images",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Vertex AI - Gemini API - Images": {
+      "main": [
+        [
+          {
+            "node": "Base64 → Binary (Image)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Base64 → Binary (Image)": {
+      "main": [
+        [
+          {
+            "node": "Upload file to drive",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Start – Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Generate Iterations for Daily Images",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set Prompt": {
+      "main": [
+        [
+          {
+            "node": "Combined Result - Drive",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "e9e3d08b-3231-4cda-bc7c-aeb5b8963dd3",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "b0fb97a030bb87551f8e9215e3dcec7136a8db8ae935186ae6335aea29472b2f"
+  },
+  "id": "1vl89qsq7toAL0Pc",
+  "tags": []
+}
